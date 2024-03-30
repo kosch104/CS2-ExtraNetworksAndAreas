@@ -54,7 +54,43 @@ namespace ExtraSpacesAndNetworks
 				]
 			};
 
+			EntityQueryDesc pathwaysEntityQueryDesc = new()
+			{
+				All = [
+					ComponentType.ReadOnly<PathwayData>(),
+				],
+				None = [
+					ComponentType.ReadOnly<PlaceholderObjectElement>(),
+				]
+			};
+
 			ExtraLib.AddOnEditEnities(new(OnEditSpacesEntities, spacesEntityQueryDesc));
+			ExtraLib.AddOnEditEnities(new(OnEditPathwayEntities, pathwaysEntityQueryDesc));
+		}
+
+		private static void OnEditPathwayEntities(NativeArray<Entity> entities)
+		{
+			foreach (Entity entity in entities)
+			{
+				if (ExtraLib.m_PrefabSystem.TryGetPrefab(entity, out PathwayPrefab prefab))
+				{
+					var prefabUI = prefab.GetComponent<UIObject>();
+					if (prefabUI == null)
+					{
+						prefabUI = prefab.AddComponent<UIObject>();
+						prefabUI.active = true;
+						prefabUI.m_IsDebugObject = false;
+						prefabUI.m_Icon = Icons.GetIcon(prefab);
+						prefabUI.m_Priority = 1;
+					}
+
+					prefabUI.m_Group?.RemoveElement(entity);
+					prefabUI.m_Group = PrefabsHelper.GetOrCreateUIAssetCategoryPrefab("Landscaping", "Pathways", Icons.GetIcon);
+					prefabUI.m_Group.AddElement(entity);
+
+					ExtraLib.m_EntityManager.AddOrSetComponentData(entity, prefabUI.ToComponentData());
+				}
+			}
 		}
 
 		private static void OnEditSpacesEntities(NativeArray<Entity> entities)
@@ -74,7 +110,7 @@ namespace ExtraSpacesAndNetworks
 					}
 
 					prefabUI.m_Group?.RemoveElement(entity);
-					prefabUI.m_Group = PrefabsHelper.GetOrCreateUIAssetCategoryPrefab("Landscaping", "Spaces", Icons.GetIcon, "Terraforming");
+					prefabUI.m_Group = PrefabsHelper.GetOrCreateUIAssetCategoryPrefab("Landscaping", "Spaces", Icons.GetIcon, "Pathways");
 					prefabUI.m_Group.AddElement(entity);
 
 					ExtraLib.m_EntityManager.AddOrSetComponentData(entity, prefabUI.ToComponentData());
