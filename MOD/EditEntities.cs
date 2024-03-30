@@ -1,4 +1,5 @@
-﻿using Extra.Lib.Helper;
+﻿using System.Collections.Generic;
+using Extra.Lib.Helper;
 using Extra.Lib;
 using Game.Prefabs;
 using Unity.Collections;
@@ -6,6 +7,7 @@ using Unity.Entities;
 using Colossal.Entities;
 using Game.Net;
 using Game.Objects;
+using UnityEngine;
 
 namespace ExtraNetworksAndAreas
 {
@@ -13,37 +15,6 @@ namespace ExtraNetworksAndAreas
 	{
 		internal static void SetupEditEntities()
 		{
-			EntityQueryDesc surfaceEntityQueryDesc = new()
-			{
-				All = [ComponentType.ReadOnly<SurfaceData>()],
-				None = [ComponentType.ReadOnly<PlaceholderObjectElement>()]
-				
-			};
-
-			EntityQueryDesc decalsEntityQueryDesc = new()
-			{
-				All = [
-					ComponentType.ReadOnly<StaticObjectData>(),
-					ComponentType.ReadOnly<SpawnableObjectData>(),
-				],
-				None = [ComponentType.ReadOnly<PlaceholderObjectElement>()]
-			};
-
-			EntityQueryDesc netLaneEntityQueryDesc = new()
-			{
-				All = [
-					ComponentType.ReadOnly<NetLaneData>(),
-				],
-				Any = [
-					ComponentType.ReadOnly<LaneDeteriorationData>(),
-					ComponentType.ReadOnly<SpawnableObjectData>(),
-					ComponentType.ReadOnly<SecondaryLaneData>(),
-				],
-				None = [
-					ComponentType.ReadOnly<PlaceholderObjectElement>(),
-					//ComponentType.ReadOnly<TrackLaneData>(),
-				]
-			};
 
 			EntityQueryDesc spacesEntityQueryDesc = new()
 			{
@@ -65,16 +36,6 @@ namespace ExtraNetworksAndAreas
 				]
 			};
 
-			EntityQueryDesc markerPrefabsEntityQueryDesc = new()
-			{
-				All = [
-					ComponentType.ReadOnly<ObjectGeometryData>(),
-				],
-				None = [
-					ComponentType.ReadOnly<PlaceholderObjectElement>(),
-				]
-			};
-
 			EntityQueryDesc tracksEntityQueryDesc = new()
 			{
 				All = [
@@ -87,9 +48,20 @@ namespace ExtraNetworksAndAreas
 
 			ExtraLib.AddOnEditEnities(new(OnEditSpacesEntities, spacesEntityQueryDesc));
 			ExtraLib.AddOnEditEnities(new(OnEditPathwayEntities, pathwaysEntityQueryDesc));
-			ExtraLib.AddOnEditEnities(new(OnEditMarkerPrefabEntities, markerPrefabsEntityQueryDesc));
 			ExtraLib.AddOnEditEnities(new(OnEditTrackEntities, tracksEntityQueryDesc));
 			// TransportStopData
+		}
+
+		private static string GetIcon(PrefabBase prefab)
+		{
+			Dictionary<string, string> overrideIcons = new()
+			{
+				{ "Double Train Track - Twoway", "Media/Game/Icons/DoubleTrainTrack.svg" },
+				{ "Oneway Tram Track - Inside", "Media/Game/Icons/TwoWayTrainTrack.svg" },
+				{ "Double Subway Track - Twoway", "Media/Game/Icons/LargeRoad.svg" },
+			};
+
+			return Icons.GetIcon(prefab);
 		}
 
 		private static void OnEditTrackEntities(NativeArray<Entity> entities)
@@ -109,37 +81,12 @@ namespace ExtraNetworksAndAreas
 					}
 
 					prefabUI.m_Group?.RemoveElement(entity);
-					if (prefab.m_TrackType == TrackTypes.Train) prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationTrain");
-					if (prefab.m_TrackType == TrackTypes.Subway) prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationSubway");
-					if (prefab.m_TrackType == TrackTypes.Tram) prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationTram");
-					prefabUI.m_Group.AddElement(entity);
-
-					ExtraLib.m_EntityManager.AddOrSetComponentData(entity, prefabUI.ToComponentData());
-				}
-			}
-		}
-
-		private static void OnEditMarkerPrefabEntities(NativeArray<Entity> entities)
-		{
-			ENA.Logger.Info("Editing MarkerObjectPrefabEntities");
-			foreach (Entity entity in entities)
-			{
-				ENA.Logger.Info("Editing MarkerObjectPrefab entity: " + entity);
-				if (ExtraLib.m_PrefabSystem.TryGetPrefab(entity, out MarkerObjectPrefab prefab))
-				{
-					ENA.Logger.Info("Got Prefab: " + prefab.name + " for entity: " + entity);
-					var prefabUI = prefab.GetComponent<UIObject>();
-					if (prefabUI == null)
-					{
-						prefabUI = prefab.AddComponent<UIObject>();
-						prefabUI.active = true;
-						prefabUI.m_IsDebugObject = false;
-						prefabUI.m_Icon = Icons.GetIcon(prefab);
-						prefabUI.m_Priority = 1;
-					}
-
-					prefabUI.m_Group?.RemoveElement(entity);
-					prefabUI.m_Group = PrefabsHelper.GetOrCreateUIAssetCategoryPrefab("Landscaping", "MarkerObjects", Icons.GetIcon, "Spaces");
+					if (prefab.m_TrackType == TrackTypes.Train)
+						prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationTrain");
+					if (prefab.m_TrackType == TrackTypes.Subway)
+						prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationSubway");
+					if (prefab.m_TrackType == TrackTypes.Tram)
+						prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationTram");
 					prefabUI.m_Group.AddElement(entity);
 
 					ExtraLib.m_EntityManager.AddOrSetComponentData(entity, prefabUI.ToComponentData());
