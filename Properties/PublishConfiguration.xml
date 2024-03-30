@@ -23,7 +23,9 @@ This is a long description
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.0.*" />
 	<!--Dependency for the mod, can be set multiple times-->
-	<Dependency Id="75724" />
+	<Dependency Id="75724" /> <!-- Extra Lib -->
+	<Dependency Id="75426" /> <!-- l18n Everywhere -->
+
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
 	<ChangeLog Value="" />
 	<!--ChangeLog>

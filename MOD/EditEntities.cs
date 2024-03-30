@@ -4,6 +4,7 @@ using Game.Prefabs;
 using Unity.Collections;
 using Unity.Entities;
 using Colossal.Entities;
+using Game.Net;
 using Game.Objects;
 
 namespace ExtraNetworksAndAreas
@@ -66,18 +67,8 @@ namespace ExtraNetworksAndAreas
 
 			EntityQueryDesc markerPrefabsEntityQueryDesc = new()
 			{
-				Any = [
-					ComponentType.ReadOnly<MarkerObjectPrefab>(),
-				],
-				None = [
-					ComponentType.ReadOnly<PlaceholderObjectElement>(),
-				]
-			};
-
-			EntityQueryDesc roadsEntityQueryDesc = new()
-			{
-				Any = [
-					ComponentType.ReadOnly<RoadPrefab>(),
+				All = [
+					ComponentType.ReadOnly<ObjectGeometryData>(),
 				],
 				None = [
 					ComponentType.ReadOnly<PlaceholderObjectElement>(),
@@ -86,8 +77,8 @@ namespace ExtraNetworksAndAreas
 
 			EntityQueryDesc tracksEntityQueryDesc = new()
 			{
-				Any = [
-					ComponentType.ReadOnly<TrackPrefab>(),
+				All = [
+					ComponentType.ReadOnly<TrackData>(),
 				],
 				None = [
 					ComponentType.ReadOnly<PlaceholderObjectElement>(),
@@ -97,43 +88,14 @@ namespace ExtraNetworksAndAreas
 			ExtraLib.AddOnEditEnities(new(OnEditSpacesEntities, spacesEntityQueryDesc));
 			ExtraLib.AddOnEditEnities(new(OnEditPathwayEntities, pathwaysEntityQueryDesc));
 			ExtraLib.AddOnEditEnities(new(OnEditMarkerPrefabEntities, markerPrefabsEntityQueryDesc));
-			ExtraLib.AddOnEditEnities(new(OnEditRoadEntities, roadsEntityQueryDesc));
 			ExtraLib.AddOnEditEnities(new(OnEditTrackEntities, tracksEntityQueryDesc));
-		}
-
-		private static void OnEditRoadEntities(NativeArray<Entity> entities)
-		{
-			ENA.Logger.Info("Edit Road Entites");
-			foreach (Entity entity in entities)
-			{
-				ENA.Logger.Info("Editing Road Entity");
-				if (ExtraLib.m_PrefabSystem.TryGetPrefab(entity, out RoadPrefab prefab))
-				{
-					var prefabUI = prefab.GetComponent<UIObject>();
-					if (prefabUI == null)
-					{
-						prefabUI = prefab.AddComponent<UIObject>();
-						prefabUI.active = true;
-						prefabUI.m_IsDebugObject = false;
-						prefabUI.m_Icon = Icons.GetIcon(prefab);
-						prefabUI.m_Priority = 1;
-					}
-
-					prefabUI.m_Group?.RemoveElement(entity);
-					prefabUI.m_Group = PrefabsHelper.GetOrCreateUIAssetCategoryPrefab("Landscaping", "Custom Roads", Icons.GetIcon, "Spaces");
-					prefabUI.m_Group.AddElement(entity);
-
-					ExtraLib.m_EntityManager.AddOrSetComponentData(entity, prefabUI.ToComponentData());
-				}
-			}
+			// TransportStopData
 		}
 
 		private static void OnEditTrackEntities(NativeArray<Entity> entities)
 		{
-			ENA.Logger.Info("Edit Track Entites");
 			foreach (Entity entity in entities)
 			{
-				ENA.Logger.Info("Editing Track Entity");
 				if (ExtraLib.m_PrefabSystem.TryGetPrefab(entity, out TrackPrefab prefab))
 				{
 					var prefabUI = prefab.GetComponent<UIObject>();
@@ -147,7 +109,9 @@ namespace ExtraNetworksAndAreas
 					}
 
 					prefabUI.m_Group?.RemoveElement(entity);
-					prefabUI.m_Group = PrefabsHelper.GetOrCreateUIAssetCategoryPrefab("Landscaping", "Custom Tracks", Icons.GetIcon, "Spaces");
+					if (prefab.m_TrackType == TrackTypes.Train) prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationTrain");
+					if (prefab.m_TrackType == TrackTypes.Subway) prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationSubway");
+					if (prefab.m_TrackType == TrackTypes.Tram) prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationTram");
 					prefabUI.m_Group.AddElement(entity);
 
 					ExtraLib.m_EntityManager.AddOrSetComponentData(entity, prefabUI.ToComponentData());
@@ -157,10 +121,13 @@ namespace ExtraNetworksAndAreas
 
 		private static void OnEditMarkerPrefabEntities(NativeArray<Entity> entities)
 		{
+			ENA.Logger.Info("Editing MarkerObjectPrefabEntities");
 			foreach (Entity entity in entities)
 			{
+				ENA.Logger.Info("Editing MarkerObjectPrefab entity: " + entity);
 				if (ExtraLib.m_PrefabSystem.TryGetPrefab(entity, out MarkerObjectPrefab prefab))
 				{
+					ENA.Logger.Info("Got Prefab: " + prefab.name + " for entity: " + entity);
 					var prefabUI = prefab.GetComponent<UIObject>();
 					if (prefabUI == null)
 					{
