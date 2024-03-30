@@ -1,11 +1,11 @@
 ﻿using Game.Prefabs;
 using System.IO;
 
-namespace ExtraSpacesAndNetworks
+namespace ExtraNetworksAndAreas
 {
     internal class Icons
     {
-        internal const string IconsResourceKey = "extraspacesandnetworks";
+        internal const string IconsResourceKey = "ExtraNetworksAndAreas";
         internal static readonly string COUIBaseLocation = $"coui://{IconsResourceKey}";
 
         public static readonly string Placeholder = $"{COUIBaseLocation}/Icons/Misc/placeholder.svg";
@@ -22,13 +22,13 @@ namespace ExtraSpacesAndNetworks
             if (prefab is null)
                 return $"{COUIBaseLocation}/Icons/Misc/placeholder.svg";
 
-            if (File.Exists($"{ESN.ResourcesIcons}/{prefab.GetType().Name}/{prefab.name}.svg"))
+            if (File.Exists($"{ENA.ResourcesIcons}/{prefab.GetType().Name}/{prefab.name}.svg"))
             {
-                ESN.Logger.Info($"Found icon in mod folder: {ESN.ResourcesIcons}/{prefab.GetType().Name}/{prefab.name}.svg");
+                ENA.Logger.Info($"Found icon in mod folder: {ENA.ResourcesIcons}/{prefab.GetType().Name}/{prefab.name}.svg");
                 return $"{COUIBaseLocation}/Icons/{prefab.GetType().Name}/{prefab.name}.svg";
             }
 
-            ESN.Logger.Info($"Did not find icon in mod folder: {ESN.ResourcesIcons}/{prefab.GetType().Name}/{prefab.name}.svg");
+            ENA.Logger.Info($"Did not find icon in mod folder: {ENA.ResourcesIcons}/{prefab.GetType().Name}/{prefab.name}.svg");
 
             if (prefab is SurfacePrefab)
             {

@@ -7,11 +7,11 @@ using HarmonyLib;
 using System.IO;
 using System.Linq;
 
-namespace ExtraSpacesAndNetworks
+namespace ExtraNetworksAndAreas
 {
-	public class ESN : IMod
+	public class ENA : IMod
 	{
-		private static readonly ILog log = LogManager.GetLogger($"{nameof(ExtraSpacesAndNetworks)}").SetShowsErrorsInUI(false);
+		private static readonly ILog log = LogManager.GetLogger($"{nameof(ExtraNetworksAndAreas)}").SetShowsErrorsInUI(false);
 		internal static Logger Logger { get; private set; } = new(log, true);
 
 		internal static string ResourcesIcons { get; private set; }
@@ -33,10 +33,10 @@ namespace ExtraSpacesAndNetworks
 			EditEntities.SetupEditEntities();
 			Icons.LoadIcons(fileInfo.DirectoryName);
 
-			harmony = new($"{nameof(ExtraSpacesAndNetworks)}.{nameof(ESN)}");
-			harmony.PatchAll(typeof(ESN).Assembly);
+			harmony = new($"{nameof(ExtraNetworksAndAreas)}.{nameof(ENA)}");
+			harmony.PatchAll(typeof(ENA).Assembly);
 			var patchedMethods = harmony.GetPatchedMethods().ToArray();
-			Logger.Info($"Plugin ExtraSpacesAndNetworks made patches! Patched methods: " + patchedMethods.Length);
+			Logger.Info($"Plugin ExtraNetworksAndAreas made patches! Patched methods: " + patchedMethods.Length);
 			foreach (var patchedMethod in patchedMethods)
 			{
 				Logger.Info($"Patched method: {patchedMethod.Module.Name}:{patchedMethod.Name}");
@@ -47,7 +47,7 @@ namespace ExtraSpacesAndNetworks
 		public void OnDispose()
 		{
 			Logger.Info(nameof(OnDispose));
-			harmony.UnpatchAll($"{nameof(ExtraSpacesAndNetworks)}.{nameof(ESN)}");
+			harmony.UnpatchAll($"{nameof(ExtraNetworksAndAreas)}.{nameof(ENA)}");
 		}
 	}
 }

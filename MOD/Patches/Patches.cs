@@ -16,7 +16,7 @@ using MonoMod.RuntimeDetour;
 using Game.Tools;
 using Game.UI.InGame;
 
-namespace ExtraSpacesAndNetworks
+namespace ExtraNetworksAndAreas
 {
 	[HarmonyPatch(typeof(GameModeExtensions), "IsEditor")]
 	public class GameModeExtensions_IsEditor

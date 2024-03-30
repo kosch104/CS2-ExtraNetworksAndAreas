@@ -6,7 +6,7 @@ using Unity.Entities;
 using Colossal.Entities;
 using Game.Objects;
 
-namespace ExtraSpacesAndNetworks
+namespace ExtraNetworksAndAreas
 {
 	internal static class EditEntities
 	{
