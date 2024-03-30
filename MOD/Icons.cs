@@ -19,9 +19,16 @@ namespace ExtraSpacesAndNetworks
         public static string GetIcon(PrefabBase prefab)
         {
 
-            if (prefab is null) return $"{COUIBaseLocation}/Icons/Misc/placeholder.svg";
+            if (prefab is null)
+                return $"{COUIBaseLocation}/Icons/Misc/placeholder.svg";
 
-            if (File.Exists($"{ESN.ResourcesIcons}/{prefab.GetType().Name}/{prefab.name}.svg")) return $"{COUIBaseLocation}/Icons/{prefab.GetType().Name}/{prefab.name}.svg";
+            if (File.Exists($"{ESN.ResourcesIcons}/{prefab.GetType().Name}/{prefab.name}.svg"))
+            {
+                ESN.Logger.Info($"Found icon in mod folder: {ESN.ResourcesIcons}/{prefab.GetType().Name}/{prefab.name}.svg");
+                return $"{COUIBaseLocation}/Icons/{prefab.GetType().Name}/{prefab.name}.svg";
+            }
+
+            ESN.Logger.Info($"Did not find icon in mod folder: {ESN.ResourcesIcons}/{prefab.GetType().Name}/{prefab.name}.svg");
 
             if (prefab is SurfacePrefab)
             {

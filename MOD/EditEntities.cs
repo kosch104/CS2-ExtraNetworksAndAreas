@@ -44,9 +44,42 @@ namespace ExtraSpacesAndNetworks
 				]
 			};
 
-			ExtraLib.AddOnEditEnities(new(OnEditSurfacesEntities, surfaceEntityQueryDesc));
-			ExtraLib.AddOnEditEnities(new(OnEditDecalsEntities, decalsEntityQueryDesc));
-			ExtraLib.AddOnEditEnities(new(OnEditNetLaneEntities, netLaneEntityQueryDesc));
+			EntityQueryDesc spacesEntityQueryDesc = new()
+			{
+				All = [
+					ComponentType.ReadOnly<SpaceData>(),
+				],
+				None = [
+					ComponentType.ReadOnly<PlaceholderObjectElement>(),
+				]
+			};
+
+			ExtraLib.AddOnEditEnities(new(OnEditSpacesEntities, spacesEntityQueryDesc));
+		}
+
+		private static void OnEditSpacesEntities(NativeArray<Entity> entities)
+		{
+			foreach (Entity entity in entities)
+			{
+				if (ExtraLib.m_PrefabSystem.TryGetPrefab(entity, out SpacePrefab prefab))
+				{
+					var prefabUI = prefab.GetComponent<UIObject>();
+					if (prefabUI == null)
+					{
+						prefabUI = prefab.AddComponent<UIObject>();
+						prefabUI.active = true;
+						prefabUI.m_IsDebugObject = false;
+						prefabUI.m_Icon = Icons.GetIcon(prefab);
+						prefabUI.m_Priority = 1;
+					}
+
+					prefabUI.m_Group?.RemoveElement(entity);
+					prefabUI.m_Group = PrefabsHelper.GetOrCreateUIAssetCategoryPrefab("Landscaping", "Spaces", Icons.GetIcon, "Terraforming");
+					prefabUI.m_Group.AddElement(entity);
+
+					ExtraLib.m_EntityManager.AddOrSetComponentData(entity, prefabUI.ToComponentData());
+				}
+			}
 		}
 
 		private static void OnEditSurfacesEntities(NativeArray<Entity> entities)
