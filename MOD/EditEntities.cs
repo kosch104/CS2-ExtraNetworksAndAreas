@@ -57,6 +57,7 @@ namespace ExtraNetworksAndAreas
 				[
 					ComponentType.ReadOnly<TrafficSpawnerData>(),
 					ComponentType.ReadOnly<CreatureSpawnData>(),
+					ComponentType.ReadOnly<ElectricityConnectionData>(),
 					ComponentType.ReadOnly<OutsideConnectionData>(),
 					//ComponentType.ReadOnly<NetObjectData>(),
 					//ComponentType.ReadOnly<NetData>(),
@@ -94,69 +95,77 @@ namespace ExtraNetworksAndAreas
 
 		private static void OnEditMarkerObjectEntities(NativeArray<Entity> entities)
 		{
-			ENA.Logger.Info("Marker Object entities:");
 			foreach (Entity entity in entities)
 			{
-				Log("Test");
-				if (ExtraLib.m_PrefabSystem.TryGetPrefab(entity, out MarkerObjectPrefab prefab))
+				ExtraLib.m_PrefabSystem.TryGetPrefab(entity, out MarkerObjectPrefab prefab);
+
+				if (prefab == null)
 				{
-					if (prefab != null)
+					/*try
 					{
-						Log("Marker entities prefab found: " + prefab.name);
-					}
-					else
-					{
-						try
+						ExtraLib.m_PrefabSystem.TryGetPrefab(entity, out PrefabBase prefab2);
+						Log("Prefab not assigned, Entity " + entity.Index);
+						Log("Prefab base: " + prefab2.name);
+						var prefabUI2 = prefab2.GetComponent<UIObject>();
+						if (prefabUI2 == null)
 						{
-							Log("Prefab is null");
-							if (ExtraLib.m_PrefabSystem.TryGetPrefab(entity, out ObjectPrefab prefab2))
-							{
-								Log("Prefab Type: " + prefab2.GetType());
-							}
-							else
-							{
-								Log("Prefab Type not found");
-							}
-
-							Log("Prefab done");
+							//Log("UI Object not found");
+							prefabUI2 = prefab2.AddComponent<UIObject>();
+							prefabUI2.active = true;
+							prefabUI2.m_IsDebugObject = false;
+							//prefabUI.m_Icon = GetIcon(prefab);
+							prefabUI2.m_Priority = 1;
 						}
-						catch (Exception x)
-						{
-							Log("Exception: " + x);
-						}
-						continue;
-					}
-					var prefabUI = prefab.GetComponent<UIObject>();
-					if (prefabUI == null)
-					{
-						Log("UI Object not found");
-						prefabUI = prefab.AddComponent<UIObject>();
-						prefabUI.active = true;
-						prefabUI.m_IsDebugObject = false;
-						prefabUI.m_Icon = GetIcon(prefab);
-						prefabUI.m_Priority = 1;
-					}
-					else
-					{
-						Log("UI Object found");
-						prefabUI.m_Icon = GetIcon(prefab);
-					}
 
-					prefabUI.m_Group?.RemoveElement(entity);
-					prefabUI.m_Group = PrefabsHelper.GetOrCreateUIAssetCategoryPrefab("Landscaping", "Marker Object Prefabs", Icons.GetIcon, "Spaces");
-					prefabUI.m_Group.AddElement(entity);
+						Log("Prefab group: " + prefabUI2.m_Group);
+					}
+					catch (Exception x)
+					{
+						Log("E: " + x);
+					}*/
 
-					ExtraLib.m_EntityManager.AddOrSetComponentData(entity, prefabUI.ToComponentData());
+					continue;
 				}
+				Log("Prefab type: " + prefab.GetType().Name);
+
+				var prefabUI = prefab.GetComponent<UIObject>();
+				if (prefabUI == null)
+				{
+					//Log("UI Object not found");
+					prefabUI = prefab.AddComponent<UIObject>();
+					prefabUI.active = true;
+					prefabUI.m_IsDebugObject = false;
+					//prefabUI.m_Icon = GetIcon(prefab);
+					prefabUI.m_Priority = 1;
+				}
+
+				prefabUI.m_Group?.RemoveElement(entity);
+				//Log("Prefab Name: " + prefab.name);
+
+
+				if (prefab.name.Contains("Bus") || prefab.name.Contains("Taxi"))
+					prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationRoad");
+				else if (prefab.name.Contains("Train"))
+					prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationTrain");
+				else if (prefab.name.Contains("Subway"))
+					prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationSubway");
+				else if (prefab.name.Contains("Tram"))
+					prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationTram");
+				else if (prefab.name.Contains("Airplane"))
+					prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationAir");
+				else if (prefab.name.Contains("Ship"))
+					prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationWater");
 				else
 				{
-					if (ExtraLib.m_PrefabSystem.TryGetPrefab(entity, out ObjectPrefab prefab2))
-					{
-						ENA.Logger.Info("Non-Marker prefab found: " + prefab2.name);
-					}
+					prefabUI.m_Group = PrefabsHelper.GetOrCreateUIAssetCategoryPrefab("Landscaping", "Marker Object Prefabs", Icons.GetIcon, "Spaces");
+					prefabUI.m_Icon = GetIcon(prefab);
 				}
+
+
+				prefabUI.m_Group.AddElement(entity);
+
+				ExtraLib.m_EntityManager.AddOrSetComponentData(entity, prefabUI.ToComponentData());
 			}
-			ENA.Logger.Info("Spawner entities done");
 		}
 
 		private static void OnEditTrackEntities(NativeArray<Entity> entities)
