@@ -57,10 +57,10 @@ namespace ExtraNetworksAndAreas
 			Dictionary<string, string> overrideIcons = new()
 			{
 				{ "Double Train Track - Twoway", "Media/Game/Icons/DoubleTrainTrack.svg" },
-				{ "Oneway Tram Track - Inside", "Media/Game/Icons/TwoWayTrainTrack.svg" },
-				{ "Double Subway Track - Twoway", "Media/Game/Icons/LargeRoad.svg" },
+				{ "Oneway Tram Track - Inside", "Media/Game/Icons/OnewayTramTrack.svg" },
+				{ "Double Subway Track - Twoway", "Media/Game/Icons/DoubleTrainTrack.svg" },
+				{ "Twoway Subway Track", "Media/Game/Icons/TwoWayTrainTrack.svg" },
 			};
-
 			return Icons.GetIcon(prefab);
 		}
 
@@ -76,7 +76,7 @@ namespace ExtraNetworksAndAreas
 						prefabUI = prefab.AddComponent<UIObject>();
 						prefabUI.active = true;
 						prefabUI.m_IsDebugObject = false;
-						prefabUI.m_Icon = Icons.GetIcon(prefab);
+						prefabUI.m_Icon = GetIcon(prefab);
 						prefabUI.m_Priority = 1;
 					}
 
@@ -106,7 +106,7 @@ namespace ExtraNetworksAndAreas
 						prefabUI = prefab.AddComponent<UIObject>();
 						prefabUI.active = true;
 						prefabUI.m_IsDebugObject = false;
-						prefabUI.m_Icon = Icons.GetIcon(prefab);
+						prefabUI.m_Icon = GetIcon(prefab);
 						prefabUI.m_Priority = 1;
 
 					}
@@ -131,7 +131,7 @@ namespace ExtraNetworksAndAreas
 						prefabUI = prefab.AddComponent<UIObject>();
 						prefabUI.active = true;
 						prefabUI.m_IsDebugObject = false;
-						prefabUI.m_Icon = Icons.GetIcon(prefab);
+						prefabUI.m_Icon = GetIcon(prefab);
 						prefabUI.m_Priority = 1;
 					}
 
