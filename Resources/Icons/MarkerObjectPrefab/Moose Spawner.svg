@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 27.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 64 64"
+   xml:space="preserve"
+   id="svg35"
+   sodipodi:docname="MooseSpawner.svg"
+   width="64"
+   height="64"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"><title
+   id="title1">Moose Spawner</title><defs
+   id="defs35">
+	
+
+	
+	
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	<filter
+   id="Adobe_OpacityMaskFilter"
+   filterUnits="userSpaceOnUse"
+   x="97.058"
+   y="103.634"
+   width="15.622"
+   height="11.469">
+					<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood13" />
+					<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend13" />
+				</filter><filter
+   id="Adobe_OpacityMaskFilter_00000149370544899693391390000016692353094475525055_"
+   filterUnits="userSpaceOnUse"
+   x="97.058"
+   y="103.634"
+   width="15.622"
+   height="11.469">
+							<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood14" />
+							<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend14" />
+						</filter><filter
+   id="Adobe_OpacityMaskFilter_00000106107291657713837300000006675987757938326455_"
+   filterUnits="userSpaceOnUse"
+   x="107.396"
+   y="100.171"
+   width="28.17"
+   height="9.178">
+					<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood31" />
+					<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend31" />
+				</filter><filter
+   id="Adobe_OpacityMaskFilter_00000151538881579225242740000006938153786635347888_"
+   filterUnits="userSpaceOnUse"
+   x="107.396"
+   y="100.171"
+   width="28.17"
+   height="9.178">
+							<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood32" />
+							<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend32" />
+						</filter><filter
+   id="Adobe_OpacityMaskFilter_00000101066910399177982860000007378421111053909137_"
+   filterUnits="userSpaceOnUse"
+   x="96.866"
+   y="100.487"
+   width="60.063"
+   height="23.557">
+						<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood50" />
+						<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend50" />
+					</filter><filter
+   id="Adobe_OpacityMaskFilter_00000145030146056514617820000005772146794162501765_"
+   filterUnits="userSpaceOnUse"
+   x="96.866"
+   y="100.487"
+   width="60.063"
+   height="23.557">
+								<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood51" />
+								<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend51" />
+							</filter><filter
+   id="Adobe_OpacityMaskFilter_00000016070308648928465410000003150515413964550577_"
+   filterUnits="userSpaceOnUse"
+   x="96.866"
+   y="100.487"
+   width="42.015"
+   height="22.794">
+						<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood68" />
+						<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend68" />
+					</filter><filter
+   id="Adobe_OpacityMaskFilter_00000181777329976999361680000016917856250708932023_"
+   filterUnits="userSpaceOnUse"
+   x="96.866"
+   y="100.487"
+   width="42.015"
+   height="22.794">
+								<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood69" />
+								<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend69" />
+							</filter><filter
+   id="Adobe_OpacityMaskFilter_00000062153602196186589720000017089737301901591172_"
+   filterUnits="userSpaceOnUse"
+   x="96.866"
+   y="100.487"
+   width="60.063"
+   height="23.557">
+						<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood86" />
+						<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend86" />
+					</filter><filter
+   id="Adobe_OpacityMaskFilter_00000170962291936353982460000004109012460342924204_"
+   filterUnits="userSpaceOnUse"
+   x="96.866"
+   y="100.487"
+   width="60.063"
+   height="23.557">
+								<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood87" />
+								<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend87" />
+							</filter><filter
+   id="Adobe_OpacityMaskFilter_00000053517062200695724660000005297092441354610344_"
+   filterUnits="userSpaceOnUse"
+   x="115.848"
+   y="100.487"
+   width="41.081"
+   height="22.533">
+						<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood104" />
+						<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend104" />
+					</filter><filter
+   id="Adobe_OpacityMaskFilter_00000140714824629038506450000014615063031990649762_"
+   filterUnits="userSpaceOnUse"
+   x="115.848"
+   y="100.487"
+   width="41.081"
+   height="22.533">
+								<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood105" />
+								<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend105" />
+							</filter><filter
+   id="Adobe_OpacityMaskFilter_00000152947346325055538930000005884925843889531780_"
+   filterUnits="userSpaceOnUse"
+   x="9.977"
+   y="7.049"
+   width="316.646"
+   height="109.027">
+					<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood126" />
+					<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend126" />
+				</filter><filter
+   id="Adobe_OpacityMaskFilter_00000028295071284563137190000015482029745280952748_"
+   filterUnits="userSpaceOnUse"
+   x="9.977"
+   y="7.049"
+   width="316.646"
+   height="109.027">
+							<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood127" />
+							<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend127" />
+						</filter><filter
+   id="Adobe_OpacityMaskFilter_00000128467137249528035150000002754830791135403401_"
+   filterUnits="userSpaceOnUse"
+   x="10.058"
+   y="69.929"
+   width="1.777"
+   height="0.515">
+					<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood144" />
+					<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend144" />
+				</filter><filter
+   id="Adobe_OpacityMaskFilter_00000163770894738067303820000010129748582420329880_"
+   filterUnits="userSpaceOnUse"
+   x="10.058"
+   y="69.929"
+   width="1.777"
+   height="0.515">
+							<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood145" />
+							<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend145" />
+						</filter><filter
+   id="Adobe_OpacityMaskFilter_00000067922601880514957050000001960009662824454531_"
+   filterUnits="userSpaceOnUse"
+   x="9.977"
+   y="7.049"
+   width="261.974"
+   height="75.566">
+					<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood162" />
+					<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend162" />
+				</filter><filter
+   id="Adobe_OpacityMaskFilter_00000055675261997008502120000000279267684749120180_"
+   filterUnits="userSpaceOnUse"
+   x="9.977"
+   y="7.049"
+   width="261.974"
+   height="75.566">
+							<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood163" />
+							<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend163" />
+						</filter><filter
+   id="Adobe_OpacityMaskFilter_00000114755550369457049690000006079377340164731824_"
+   filterUnits="userSpaceOnUse"
+   x="105.858"
+   y="93.971"
+   width="15.624"
+   height="5.666">
+					<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood166" />
+					<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend166" />
+				</filter><filter
+   id="Adobe_OpacityMaskFilter_00000005977014564442684860000010036000019492990364_"
+   filterUnits="userSpaceOnUse"
+   x="105.858"
+   y="93.971"
+   width="15.624"
+   height="5.666">
+							<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood167" />
+							<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend167" />
+						</filter><filter
+   id="Adobe_OpacityMaskFilter_00000133505748430935611770000006150074082443734913_"
+   filterUnits="userSpaceOnUse"
+   x="124.996"
+   y="96.292"
+   width="7.554"
+   height="5.619">
+					<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood184" />
+					<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend184" />
+				</filter><filter
+   id="Adobe_OpacityMaskFilter_00000167362887232091914240000006419328092665393286_"
+   filterUnits="userSpaceOnUse"
+   x="124.996"
+   y="96.292"
+   width="7.554"
+   height="5.619">
+							<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood185" />
+							<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend185" />
+						</filter><filter
+   id="Adobe_OpacityMaskFilter_00000116921767200386859480000011960623912812423842_"
+   filterUnits="userSpaceOnUse"
+   x="77.639"
+   y="94.505"
+   width="13.969"
+   height="18.456">
+					<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood202" />
+					<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend202" />
+				</filter><filter
+   id="Adobe_OpacityMaskFilter_00000031908216777633409700000014027787407599540875_"
+   filterUnits="userSpaceOnUse"
+   x="77.639"
+   y="94.505"
+   width="13.969"
+   height="18.456">
+							<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood203" />
+							<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend203" />
+						</filter><filter
+   id="Adobe_OpacityMaskFilter_00000073685612945211266330000015309297531153397905_"
+   filterUnits="userSpaceOnUse"
+   x="90.516"
+   y="95.091"
+   width="29.551"
+   height="19.415">
+					<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood220" />
+					<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend220" />
+				</filter><filter
+   id="Adobe_OpacityMaskFilter_00000060030205626766905870000000521871769183571356_"
+   filterUnits="userSpaceOnUse"
+   x="90.516"
+   y="95.091"
+   width="29.551"
+   height="19.415">
+							<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood221" />
+							<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend221" />
+						</filter><filter
+   id="Adobe_OpacityMaskFilter_00000122699209003967426330000003384366822432464035_"
+   filterUnits="userSpaceOnUse"
+   x="117.489"
+   y="7.049"
+   width="51.019"
+   height="36.259">
+					<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood244" />
+					<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend244" />
+				</filter><filter
+   id="Adobe_OpacityMaskFilter_00000178910849252990637770000008000851723389134211_"
+   filterUnits="userSpaceOnUse"
+   x="117.489"
+   y="7.049"
+   width="51.019"
+   height="36.259">
+							<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood245" />
+							<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend245" />
+						</filter><filter
+   id="Adobe_OpacityMaskFilter_00000139258801425234193260000017283982020072392631_"
+   filterUnits="userSpaceOnUse"
+   x="255.153"
+   y="78.967"
+   width="49.938"
+   height="37.108">
+					<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood262" />
+					<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend262" />
+				</filter><filter
+   id="Adobe_OpacityMaskFilter_00000120516857183574117200000008599918341250708612_"
+   filterUnits="userSpaceOnUse"
+   x="255.153"
+   y="78.967"
+   width="49.938"
+   height="37.108">
+							<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood263" />
+							<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend263" />
+						</filter><filter
+   id="Adobe_OpacityMaskFilter_00000052101130698492793990000010355883039578698394_"
+   filterUnits="userSpaceOnUse"
+   x="253.768"
+   y="26.806"
+   width="72.854"
+   height="48.985">
+					<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood280" />
+					<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend280" />
+				</filter><filter
+   id="Adobe_OpacityMaskFilter_00000039129287237365788330000007549821460852684209_"
+   filterUnits="userSpaceOnUse"
+   x="253.768"
+   y="26.806"
+   width="72.854"
+   height="48.985">
+							<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood281" />
+							<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend281" />
+						</filter><filter
+   id="Adobe_OpacityMaskFilter_00000070112550615471496650000016605952459665077947_"
+   filterUnits="userSpaceOnUse"
+   x="291.658"
+   y="38.166"
+   width="4.072"
+   height="2.199">
+					<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood298" />
+					<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend298" />
+				</filter><filter
+   id="Adobe_OpacityMaskFilter_00000164508017788945936110000006578396162285595555_"
+   filterUnits="userSpaceOnUse"
+   x="291.658"
+   y="38.166"
+   width="4.072"
+   height="2.199">
+							<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood299" />
+							<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend299" />
+						</filter><filter
+   id="Adobe_OpacityMaskFilter_00000065762032079780780730000009269371589862254510_"
+   filterUnits="userSpaceOnUse"
+   x="253.768"
+   y="44.407"
+   width="31.676"
+   height="28.991">
+					<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood316" />
+					<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend316" />
+				</filter><filter
+   id="Adobe_OpacityMaskFilter_00000080908280477734180460000016017068635941762199_"
+   filterUnits="userSpaceOnUse"
+   x="253.768"
+   y="44.407"
+   width="31.676"
+   height="28.991">
+							<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood317" />
+							<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend317" />
+						</filter><filter
+   id="Adobe_OpacityMaskFilter_00000021811343468226134770000011961699695776846507_"
+   filterUnits="userSpaceOnUse"
+   x="34.398"
+   y="66.06"
+   width="18.675"
+   height="15.391">
+					<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood334" />
+					<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend334" />
+				</filter><filter
+   id="Adobe_OpacityMaskFilter_00000027588065739327555350000009720595055958163894_"
+   filterUnits="userSpaceOnUse"
+   x="34.398"
+   y="66.06"
+   width="18.675"
+   height="15.391">
+							<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood335" />
+							<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend335" />
+						</filter><path
+   id="SVGID_00000076598796319586908130000005167430376105370289_"
+   d="M41.414,70.818c-0.397,0.121-0.69,0.298-0.896,0.516       c-0.076,1.25,0.547,2.485,1.265,3.493c0.661,0.93,2.438,3.581,3.899,2.974c2.106-0.878,3.436-2.224,4.84-3.749       C47.636,72.449,44.731,70.813,41.414,70.818z" /><filter
+   id="Adobe_OpacityMaskFilter_00000001645663709189951310000010959355307674602375_"
+   filterUnits="userSpaceOnUse"
+   x="179.377"
+   y="87.291"
+   width="23.236"
+   height="12.486">
+						<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood362" />
+						<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend362" />
+					</filter><filter
+   id="Adobe_OpacityMaskFilter_00000158019530846418195080000004655119734297348787_"
+   filterUnits="userSpaceOnUse"
+   x="179.377"
+   y="87.291"
+   width="23.236"
+   height="12.486">
+								<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood363" />
+								<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend363" />
+							</filter><filter
+   id="Adobe_OpacityMaskFilter_00000046325076324494167610000013871092276743025804_"
+   filterUnits="userSpaceOnUse"
+   x="181.167"
+   y="87.782"
+   width="21.446"
+   height="11.995">
+						<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood380" />
+						<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend380" />
+					</filter><filter
+   id="Adobe_OpacityMaskFilter_00000127736308124832484420000017549436446684762764_"
+   filterUnits="userSpaceOnUse"
+   x="181.167"
+   y="87.782"
+   width="21.446"
+   height="11.995">
+								<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood381" />
+								<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend381" />
+							</filter><filter
+   id="Adobe_OpacityMaskFilter_00000113332813460222153190000015665510405366652044_"
+   filterUnits="userSpaceOnUse"
+   x="180.78"
+   y="89.323"
+   width="19.213"
+   height="9.497">
+						<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood398" />
+						<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend398" />
+					</filter><filter
+   id="Adobe_OpacityMaskFilter_00000018947997924100086620000008143627428864295823_"
+   filterUnits="userSpaceOnUse"
+   x="180.78"
+   y="89.323"
+   width="19.213"
+   height="9.497">
+								<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood399" />
+								<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend399" />
+							</filter><filter
+   id="Adobe_OpacityMaskFilter_00000119797464858176473120000017480951229808221356_"
+   filterUnits="userSpaceOnUse"
+   x="77.531"
+   y="93.236"
+   width="62.823"
+   height="42.28">
+						<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood406" />
+						<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend406" />
+					</filter><filter
+   id="Adobe_OpacityMaskFilter_00000030459023687194231040000012974047765947418534_"
+   filterUnits="userSpaceOnUse"
+   x="77.531"
+   y="93.236"
+   width="62.823"
+   height="42.28">
+								<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood407" />
+								<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend407" />
+							</filter><filter
+   id="Adobe_OpacityMaskFilter_00000016063935057005424050000011701605392895375789_"
+   filterUnits="userSpaceOnUse"
+   x="77.531"
+   y="93.236"
+   width="62.823"
+   height="42.28">
+						<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood424" />
+						<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend424" />
+					</filter><filter
+   id="Adobe_OpacityMaskFilter_00000070800906986990734280000001078318320019952277_"
+   filterUnits="userSpaceOnUse"
+   x="77.531"
+   y="93.236"
+   width="62.823"
+   height="42.28">
+								<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood425" />
+								<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend425" />
+							</filter><filter
+   id="Adobe_OpacityMaskFilter_00000179612817915304048730000001182569842379913639_"
+   filterUnits="userSpaceOnUse"
+   x="99.973"
+   y="99.022"
+   width="40.382"
+   height="36.493">
+						<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood442" />
+						<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend442" />
+					</filter><filter
+   id="Adobe_OpacityMaskFilter_00000083804246149007932150000004408308841036097433_"
+   filterUnits="userSpaceOnUse"
+   x="99.973"
+   y="99.022"
+   width="40.382"
+   height="36.493">
+								<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood443" />
+								<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend443" />
+							</filter><filter
+   id="Adobe_OpacityMaskFilter_00000138534085466555495740000007011452501224040329_"
+   filterUnits="userSpaceOnUse"
+   x="86.138"
+   y="97.889"
+   width="34.616"
+   height="30.839">
+						<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood460" />
+						<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend460" />
+					</filter><filter
+   id="Adobe_OpacityMaskFilter_00000142140417564399495900000017215964357033098654_"
+   filterUnits="userSpaceOnUse"
+   x="86.138"
+   y="97.889"
+   width="34.616"
+   height="30.839">
+								<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood461" />
+								<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend461" />
+							</filter><filter
+   id="Adobe_OpacityMaskFilter_00000015340205885140511190000000219925801032702849_"
+   filterUnits="userSpaceOnUse"
+   x="256.592"
+   y="79.28"
+   width="42.542"
+   height="34.862">
+					<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood464" />
+					<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend464" />
+				</filter><filter
+   id="Adobe_OpacityMaskFilter_00000110447968814697417120000004047849997574223267_"
+   filterUnits="userSpaceOnUse"
+   x="256.592"
+   y="79.28"
+   width="42.542"
+   height="34.862">
+							<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood465" />
+							<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend465" />
+						</filter><filter
+   id="Adobe_OpacityMaskFilter_00000034800962585059604430000010936485175015942806_"
+   filterUnits="userSpaceOnUse"
+   x="15.172"
+   y="41.196"
+   width="200.906"
+   height="32.923">
+						<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood572" />
+						<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend572" />
+					</filter><filter
+   id="Adobe_OpacityMaskFilter_00000145750802810706443520000001087598542850897036_"
+   filterUnits="userSpaceOnUse"
+   x="15.172"
+   y="41.196"
+   width="200.906"
+   height="32.923">
+								<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood573" />
+								<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend573" />
+							</filter><filter
+   id="Adobe_OpacityMaskFilter_00000018917119181324191220000002698845619400569006_"
+   filterUnits="userSpaceOnUse"
+   x="125.401"
+   y="8.92"
+   width="38.934"
+   height="29.754">
+						<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood576" />
+						<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend576" />
+					</filter><filter
+   id="Adobe_OpacityMaskFilter_00000000185054326247367440000012133073238996213162_"
+   filterUnits="userSpaceOnUse"
+   x="125.401"
+   y="8.92"
+   width="38.934"
+   height="29.754">
+								<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood577" />
+								<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend577" />
+							</filter><filter
+   id="Adobe_OpacityMaskFilter_00000024717172716179813730000017113419728725885859_"
+   filterUnits="userSpaceOnUse"
+   x="269.686"
+   y="33.745"
+   width="41.511"
+   height="35.438">
+						<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood580" />
+						<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend580" />
+					</filter><filter
+   id="Adobe_OpacityMaskFilter_00000169540928648392974810000007535231940579753662_"
+   filterUnits="userSpaceOnUse"
+   x="269.686"
+   y="33.745"
+   width="41.511"
+   height="35.438">
+								<feFlood
+   style="flood-color:white;flood-opacity:1"
+   result="back"
+   id="feFlood581" />
+								<feBlend
+   in="SourceGraphic"
+   in2="back"
+   mode="normal"
+   id="feBlend581" />
+							</filter></defs><sodipodi:namedview
+   id="namedview35"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="true"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="22.627417"
+   inkscape:cx="35.112271"
+   inkscape:cy="26.671184"
+   inkscape:window-width="2659"
+   inkscape:window-height="1638"
+   inkscape:window-x="113"
+   inkscape:window-y="203"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="svg35"
+   inkscape:clip-to-page="false" />
+
+<g
+   inkscape:groupmode="layer"
+   id="layer1"
+   inkscape:label="signage layer"
+   style="display:inline"
+   transform="translate(-0.19517359,-0.04920669)"><g
+     id="g56"><path
+       d="M 32.793612,0.37647838 C 31.839909,0.37646359 31.420646,1.1487382 30.734164,1.8351778 l -2.059447,2.0593188 -2.059446,2.059319 -2.059447,2.0593189 -8.237788,8.2372765 -8.2377883,8.237274 -2.059447,2.05932 -2.059447,2.059318 c 0,0 -1.3729647,1.372879 -2.0594469,2.059319 -0.6864824,0.68644 -1.19767362,1.088517 -1.19768862,2.059319 -1.458e-5,0.936605 0.46279982,1.324559 1.12507902,1.986838 0.6622792,0.662279 1.9868375,1.986838 1.9868375,1.986838 l 1.9868374,1.986837 1.9868375,1.986838 7.9473504,7.947349 7.947349,7.94735 1.986837,1.986838 1.986838,1.986837 c 0,0 1.324558,1.324559 1.986837,1.986838 0.66228,0.662279 1.050234,1.194397 1.986838,1.194411 0.970803,1.5e-5 1.372965,-0.580453 2.059447,-1.266893 0.686482,-0.686439 2.059446,-2.059318 2.059446,-2.059318 l 2.059448,-2.059319 2.059447,-2.05932 8.237788,-8.237275 8.237788,-8.237275 2.059447,-2.05932 2.059446,-2.059319 c 0,0 1.372965,-1.372879 2.059447,-2.059318 0.686482,-0.68644 1.16255,-1.088517 1.162566,-2.059319 1.5e-5,-0.936605 -0.427677,-1.324559 -1.089956,-1.986838 -0.662279,-0.662279 -1.986838,-1.986837 -1.986838,-1.986837 L 58.622499,25.604746 56.635661,23.617908 48.688311,15.670559 40.740961,7.7232088 38.754123,5.7363714 36.767286,3.7495339 34.780449,1.7626963 C 34.11817,1.1004171 33.747315,0.37649317 32.793612,0.37647838 Z M 32.680919,4.2920145 c 0.838341,1.53e-5 1.166022,0.565487 1.749032,1.1485403 l 1.749032,1.7491597 1.749031,1.7491603 1.749032,1.7491592 6.996126,6.996638 6.996127,6.99664 1.749032,1.749159 1.749031,1.74916 c 0,0 1.166021,1.166106 1.749032,1.749159 0.58301,0.583054 0.852165,0.924629 0.85215,1.74916 -1.6e-5,0.852089 -0.308154,1.205036 -0.910673,1.807554 -0.602518,0.602518 -1.807555,1.807555 -1.807555,1.807555 l -1.807554,1.807554 -1.807555,1.807556 -7.230219,7.230218 -7.230218,7.230219 -1.807554,1.807555 -1.807555,1.807555 c 0,0 -1.205036,1.205036 -1.807555,1.807554 -0.602518,0.602518 -0.955465,1.015114 -1.807555,1.015129 -0.824531,1.5e-5 -1.166106,-0.373595 -1.749159,-0.956605 -0.583053,-0.583011 -1.74916,-1.749032 -1.74916,-1.749032 l -1.74916,-1.749032 -1.74916,-1.749031 -6.996638,-6.996127 -6.99664,-6.996127 -1.7491588,-1.749031 -1.7491601,-1.749032 c 0,0 -1.1661064,-1.166022 -1.7491596,-1.749032 -0.5830532,-0.58301 -0.887386,-0.9245 -0.8874012,-1.749031 -1.58e-5,-0.85215 0.3433633,-1.205122 0.9459243,-1.807683 0.6025609,-0.602561 1.8076828,-1.807682 1.8076828,-1.807682 l 1.8076824,-1.807684 1.8076832,-1.807682 7.230731,-7.23073 7.230731,-7.230732 1.807683,-1.8076825 1.807682,-1.8076832 1.807683,-1.8076826 c 0.602561,-0.6025609 0.969342,-1.2070785 1.807682,-1.2070632 z"
+       style="fill:#f6c840;fill-opacity:1;stroke:#1d3244;stroke-width:0.249751;stroke-opacity:1"
+       id="path55"
+       sodipodi:nodetypes="zzcccccccssscccccccssscccccccsssccccccczzzzcccccccssscccccccssscccccccsssccccccczz"
+       inkscape:label="holder" /></g></g>
+<metadata
+   id="metadata35"><rdf:RDF><cc:Work
+       rdf:about=""><cc:license
+         rdf:resource="http://artlibre.org/licence/lal" /><dc:creator><cc:Agent><dc:title>Tigon Trollhammer</dc:title></cc:Agent></dc:creator><dc:title>Moose Spawner</dc:title></cc:Work><cc:License
+       rdf:about="http://artlibre.org/licence/lal"><cc:permits
+         rdf:resource="http://creativecommons.org/ns#Reproduction" /><cc:permits
+         rdf:resource="http://creativecommons.org/ns#Distribution" /><cc:permits
+         rdf:resource="http://creativecommons.org/ns#DerivativeWorks" /><cc:requires
+         rdf:resource="http://creativecommons.org/ns#ShareAlike" /><cc:requires
+         rdf:resource="http://creativecommons.org/ns#Notice" /><cc:requires
+         rdf:resource="http://creativecommons.org/ns#Attribution" /></cc:License></rdf:RDF></metadata><style
+   type="text/css"
+   id="style1">
+	.st0{fill:#58565C;}
+	.st1{fill:#949397;}
+	.st2{fill:#4F4B4E;}
+	.st3{fill:#616064;}
+	.st4{fill:#939293;}
+	.st5{fill:#A8A6A8;}
+	.st6{fill:#A5A5A5;}
+	.st7{fill:#A1A3AE;}
+	.st8{fill:none;}
+	.st9{fill:#4D4C50;}
+	.st10{fill:#313033;}
+	.st11{fill:#262528;}
+	.st12{fill:#313034;}
+	.st13{fill:#0D121B;}
+	.st14{fill:#79767B;}
+	.st15{fill:#5F5D61;}
+	.st16{fill:#767677;}
+</style><path
+   fill="#000000"
+   d="m 26.395663,33.434912 c -0.118725,0.967495 -0.338397,1.903806 -0.823517,2.758115 -0.435184,1.011856 -0.954273,1.976223 -1.416947,2.967404 -0.490038,1.482934 -1.056564,2.983036 -1.930884,4.280412 -0.538442,0.686131 -1.274117,1.205688 -1.72711,1.950499 0.6446,0.291824 1.447009,0.08357 2.138217,0.0312 0.468933,-0.321639 1.061659,-0.330393 1.021135,-0.995407 -0.166338,-1.52098 0.763483,-2.884842 1.482811,-4.150899 0.594154,-0.78357 1.301113,-1.486526 1.725687,-2.384689 0.899353,-1.142687 1.621357,-2.429565 2.019436,-3.83344 0.06153,1.571257 -0.442252,3.090587 -0.601165,4.635924 0.162563,1.18869 1.402649,1.751876 2.154313,2.554098 1.236842,1.008384 2.330184,2.417647 3.96665,2.732564 0.61931,0.326487 1.393324,0.420862 2.029628,0.08825 -0.543743,-0.571577 -0.877523,-1.427661 -1.551162,-1.820722 -0.744101,0.17654 0.0014,-0.611035 -0.946228,-0.249475 -1.08437,0.203035 -1.94301,-0.737517 -2.678572,-1.397149 -0.604719,-0.601358 -1.40661,-1.369895 -0.98606,-2.303949 0.447927,-1.486812 1.461205,-2.79875 1.661022,-4.352468 -0.08941,-0.864354 0.94721,-0.76515 1.522416,-0.733519 1.363897,0.06523 2.723225,-0.09113 4.019956,-0.524202 0.446897,-0.02473 1.248115,-0.567745 1.458314,0.03203 0.664016,1.490385 1.694875,2.757017 2.689954,4.030682 0.368754,0.81607 -0.439496,1.544713 -0.68068,2.289945 -0.832812,1.643872 -1.700991,3.291224 -2.767112,4.789728 -0.399211,0.537377 -1.149803,0.90479 -1.301477,1.57473 0.763966,0.170123 1.634765,0.198547 2.363571,-0.130825 0.389747,-0.417975 0.730298,-0.248041 0.481342,-1.127495 0.188725,-1.558043 1.228352,-2.830014 1.944656,-4.181568 0.763143,-1.266572 1.847095,-2.328287 2.549331,-3.621275 0.02767,-0.495454 -0.516553,-0.831098 -0.614731,-1.31431 1.008755,0.491337 1.20638,1.234329 2.174442,1.778592 0.765687,0.430484 0.884268,1.700394 0.95353,2.715238 0.108966,1.373508 -0.05841,2.496066 -0.189269,3.960325 -1.115789,-0.08298 -2.005132,0.650847 -2.521641,1.455905 -0.349858,0.572292 0.498615,0.4697 0.891276,0.465945 0.554996,0.131978 0.81009,-0.226138 1.213486,-0.269121 0.399262,-0.04254 0.664994,-1.110765 1.219045,-1.416915 0.37285,-1.310164 0.144192,-2.149829 0.306866,-5.006752 -0.322506,-1.047561 -0.475374,-3.293242 -0.955119,-4.266241 -0.991216,-0.668624 -1.549151,-1.751811 -1.634172,-3.162388 -0.118914,-0.726304 -0.212055,-1.456392 -0.264586,-2.190742 0.574903,0.608909 0.885568,-0.253406 0.667445,-0.750607 -0.231824,-0.822228 -0.593309,-1.662051 -1.081103,-2.368267 -1.292929,-1.510476 -3.399854,-1.665174 -5.248204,-1.800732 -1.715961,-0.235216 -3.512202,-0.05544 -5.168259,-0.612796 -1.124344,-0.649757 -2.175338,-1.569072 -3.511802,-1.767643 -1.277267,-0.330927 -2.428152,0.429082 -3.600059,0.775968 -0.855207,0.03962 -1.710415,0.07925 -2.565622,0.118873 0.40037,-0.479832 0.792311,-1.082251 -0.118132,-0.802748 -0.830639,-0.02467 -1.488745,0.920894 -2.306603,0.503095 -0.122661,-0.707091 0.874949,-0.796325 1.355634,-1.000199 1.528011,-0.327751 3.211868,-0.572546 4.304479,-1.811575 0.954029,-0.985145 1.639611,-2.215868 2.197228,-3.455085 -0.218652,-0.513028 -0.754834,0.495677 -1.136538,0.53921 -0.817515,0.533617 -0.425584,-0.219174 -0.222233,-0.678139 -0.408626,-0.174381 -0.832215,0.499593 -1.169387,0.750733 -0.248666,0.316657 -1.104727,0.978323 -1.078353,0.174055 0.366429,-0.553693 -0.04008,-1.104557 -0.452664,-0.38551 -0.579135,0.677557 -0.841027,1.714703 -1.649733,2.14601 -0.340786,-0.405362 0.05275,-1.078262 0.146298,-1.556978 0.10609,-0.272983 0.443175,-1.367385 -0.127832,-0.864506 -0.790427,1.119449 -1.284946,2.456104 -2.076182,3.57406 -0.417811,0.601165 -1.23194,1.053902 -1.906681,0.557418 -0.589067,-0.30563 -0.991823,-0.973678 -1.65691,-1.094022 -0.171822,0.317737 0.6262,1.236178 -0.208894,0.846943 -0.347499,-0.05782 -1.015435,-0.721957 -1.160852,-0.258937 0.254927,0.298194 0.737622,1.152477 -0.05681,0.781514 -0.314864,-0.304547 -1.173699,-0.430444 -0.660524,0.210608 0.783804,1.07219 2.223821,1.307718 3.477493,1.336107 0.862609,0.180149 0.02677,0.713614 -0.365352,0.916415 -1.121208,0.842689 -2.496252,1.306807 -3.55869,2.218191 -0.627579,0.771917 -0.696793,1.882051 -0.400517,2.804717 0.550013,0.08677 1.022349,-0.246221 1.558138,-0.02409 0.663397,-0.06088 1.08552,-0.954124 1.806245,-0.610146 0.690452,-0.02188 0.971506,0.434075 1.156414,1.029408 0.399044,0.640796 0.724704,1.647885 1.57288,1.732521 0.218602,-0.608484 0.02124,-1.304265 0.12233,-1.946036 1.121119,0.561362 2.331618,0.980476 3.395384,1.633115 0.628514,0.816635 0.132798,1.986666 0.856168,2.770754 0.130331,0.186017 0.448594,0.720103 0.479362,0.713815"
+   id="path1-0"
+   style="stroke-width:0.430297;fill:#322902;fill-opacity:1"
+   sodipodi:nodetypes="cccccccccccccccccccccccccccccccsccccscccccccccccccccccccccccccccccccccccccccccccc" /><path
+   d="m 21.853063,22.354731 c -0.122661,-0.707091 0.874949,-0.796325 1.355634,-1.000199 1.528011,-0.327751 3.211868,-0.572546 4.304479,-1.811575 0.954029,-0.985145 1.639611,-2.215868 2.197228,-3.455085 -0.218652,-0.513028 -0.754834,0.495677 -1.136538,0.53921 -0.817515,0.533617 -0.425584,-0.219174 -0.222233,-0.678139 -0.408626,-0.174381 -0.832215,0.499593 -1.169387,0.750733 -0.248666,0.316657 -1.104727,0.978323 -1.078353,0.174055 0.366429,-0.553693 -0.04008,-1.104557 -0.452664,-0.38551 -0.579135,0.677557 -0.841027,1.714703 -1.649733,2.14601 -0.340786,-0.405362 0.05275,-1.078262 0.146298,-1.556978 0.10609,-0.272983 0.443175,-1.367385 -0.127832,-0.864506 -0.790427,1.119449 -1.284946,2.456104 -2.076182,3.57406 -0.417811,0.601165 -1.23194,1.053902 -1.906681,0.557418 -0.589067,-0.30563 -0.991823,-0.973678 -1.65691,-1.094022 -0.171822,0.317737 0.6262,1.236178 -0.208894,0.846943 -0.347499,-0.05782 -1.015435,-0.721957 -1.160852,-0.258937 0.254927,0.298194 0.737622,1.152477 -0.05681,0.781514 -0.314864,-0.304547 -1.173699,-0.430444 -0.660524,0.210608 0.783804,1.07219 2.223821,1.307718 3.477493,1.336107"
+   style="fill:#ddc72c;fill-opacity:1;stroke-width:0.430297"
+   id="path1-9" /></svg>

@@ -30,11 +30,7 @@ namespace ExtraNetworksAndAreas
 
             ENA.Logger.Info($"Did not find icon in mod folder: {ENA.ResourcesIcons}/{prefab.GetType().Name}/{prefab.name}.svg");
 
-            if (prefab is SurfacePrefab)
-            {
-                return "Media/Game/Icons/LotTool.svg";
-            }
-            else if (prefab is UIAssetCategoryPrefab)
+            if (prefab is UIAssetCategoryPrefab)
             {
 
                 return $"{COUIBaseLocation}/Icons/Misc/placeholder.svg";
