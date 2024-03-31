@@ -12,7 +12,7 @@ namespace ExtraNetworksAndAreas
 	public class ENA : IMod
 	{
 		private static readonly ILog log = LogManager.GetLogger($"{nameof(ExtraNetworksAndAreas)}").SetShowsErrorsInUI(false);
-		internal static Logger Logger { get; private set; } = new(log, true);
+		internal static Logger Logger { get; private set; } = new(log, false);
 
 		internal static string ResourcesIcons { get; private set; }
 
