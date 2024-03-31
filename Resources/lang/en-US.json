@@ -21,7 +21,7 @@
   "SubServices.NAME[Spaces]": "Spaces and Areas",
   "Assets.SUB_SERVICE_DESCRIPTION[Spaces]": "Spaces and Functional Areas. When placed around a path citizens will use this area to alter their pathing and include the area",
   "SubServices.NAME[Marker Object Prefabs]": "Markers and Object Prefabs",
-  "Assets.SUB_SERVICE_DESCRIPTION[Marker Object Prefabs]": "Integrated Stations, Building Markers, Spawn Points, etc.",
+  "Assets.SUB_SERVICE_DESCRIPTION[Marker Object Prefabs]": "Animal Spawners and other invisible markers",
 
   "Assets.NAME[Gympark Area]": "Gympark Area",
   "Assets.DESCRIPTION[Walking Area]": "An area for your citizens to walk around in.",

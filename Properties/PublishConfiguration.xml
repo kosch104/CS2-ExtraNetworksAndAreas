@@ -1,25 +1,56 @@
 ﻿<Publish>
 	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
-	<ModId Value="" />
+	<ModId Value="77175" />
 	<!--Name of the mod to display to players-->
 	<DisplayName Value="Extra Networks and Areas" />
 	<!--Short description of the mod-->
-	<ShortDescription Value="This mod " />
+	<ShortDescription Value="This mod adds Invisible Roads, Custom Park Areas and Integrated Stops directly into the Game UI" />
 	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
 	<!--LongDescription Value="This is a long description" /-->
 	<LongDescription>
-This is a long description
+# Extra Networks and Areas
+This mod adds Invisible Roads, Custom Park Areas and Integrated Stops directly into the Game UI.
+
+## Features
+### Integrated Stations
+This Mod adds integrated stations to the Transportation tab. These stations are invisible markers that can be used to create your own custom Bus Terminals, Train Stations and much more.
+
+### Invisible Roads and Custom Parking Lots
+This mod adds all available invisible paths and roads to the User Interface. This includes the possibility to create custom parking lots without having to use developer tools.
+
+### Spaces and Areas
+Spaces and Areas are used by your Cims to determine where they can walk, spend their freetime in a park, or hang out. This previously needed access to developer tools, but now you can create them directly from the Terraforming Tab.
+
+### Animal Spawners
+This game has invisible animal spawners that can be used to periodically spawn animals of various types. They are found in the terraforming tab. I have heard of a player using these spawners in combination with a Walking area to create a zoo, but I never tested it myself.
+
+## Feature roadmap
+- Translations
+- Outside Connections
+- Feel free to suggest more features!
+
+# Acknowledgment
+Many people helped me in the creation of this mod. Especially I would like to thank
+* **CityRat** for various custom icons.
+* **Tigon ologdrin** for the icons of all spawner types.
+* **Triton Supreme** for detailed support with the prefab system.
+* **89-pleasure** for helping me with the very first steps of modding.
+* **Yenyang** for the help and modding templates.
 	</LongDescription>
 	<!--Thumbnail-->
 	<Thumbnail Value="Properties/Thumbnail.png" />
 	<!--Screenshot, can be set multiple times-->
 	<Screenshot Value="Properties/Thumbnail.png" />
+	<Screenshot Value="Properties/image1.png" />
+	<Screenshot Value="Properties/image2.png" />
+	<Screenshot Value="Properties/image3.png" />
+	<Screenshot Value="Properties/image4.png" />
 	<!--Tag, can be set multiple times-->
-	<Tag Value="" />
+	<Tag Value="Code Mod" />
 	<!--Link to the forum post where the mod can be discussed-->
-	<ForumLink Value="" />
+	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/extra-networks-and-areas.1654938/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.0" />
+	<ModVersion Value="1.0.0" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.0.*" />
 	<!--Dependency for the mod, can be set multiple times-->
@@ -29,7 +60,7 @@ This is a long description
 	<Dependency Id="74604" /> <!-- Anarchy -->
 
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
-	<ChangeLog Value="" />
+	<ChangeLog Value="Update Mod Description" />
 	<!--ChangeLog>
 	</ChangeLog-->
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon-->
