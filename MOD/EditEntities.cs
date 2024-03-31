@@ -61,6 +61,10 @@ namespace ExtraNetworksAndAreas
 				{ "Double Subway Track - Twoway", "Media/Game/Icons/DoubleTrainTrack.svg" },
 				{ "Twoway Subway Track", "Media/Game/Icons/TwoWayTrainTrack.svg" },
 			};
+			if (overrideIcons.TryGetValue(prefab.name, out string icon))
+			{
+				return icon;
+			}
 			return Icons.GetIcon(prefab);
 		}
 
