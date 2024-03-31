@@ -101,32 +101,8 @@ namespace ExtraNetworksAndAreas
 
 				if (prefab == null)
 				{
-					/*try
-					{
-						ExtraLib.m_PrefabSystem.TryGetPrefab(entity, out PrefabBase prefab2);
-						Log("Prefab not assigned, Entity " + entity.Index);
-						Log("Prefab base: " + prefab2.name);
-						var prefabUI2 = prefab2.GetComponent<UIObject>();
-						if (prefabUI2 == null)
-						{
-							//Log("UI Object not found");
-							prefabUI2 = prefab2.AddComponent<UIObject>();
-							prefabUI2.active = true;
-							prefabUI2.m_IsDebugObject = false;
-							//prefabUI.m_Icon = GetIcon(prefab);
-							prefabUI2.m_Priority = 1;
-						}
-
-						Log("Prefab group: " + prefabUI2.m_Group);
-					}
-					catch (Exception x)
-					{
-						Log("E: " + x);
-					}*/
-
 					continue;
 				}
-				Log("Prefab type: " + prefab.GetType().Name);
 
 				var prefabUI = prefab.GetComponent<UIObject>();
 				if (prefabUI == null)
@@ -141,7 +117,6 @@ namespace ExtraNetworksAndAreas
 
 				prefabUI.m_Group?.RemoveElement(entity);
 				//Log("Prefab Name: " + prefab.name);
-
 
 				if (prefab.name.Contains("Bus") || prefab.name.Contains("Taxi"))
 					prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationRoad");
