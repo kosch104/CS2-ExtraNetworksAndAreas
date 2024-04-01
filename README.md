@@ -21,7 +21,10 @@ This game has invisible animal spawners that can be used to periodically spawn a
 - Outside Connections
 - Feel free to suggest more features!
 
-# Acknowledgment
+## Warning
+Please be careful using invisible roads and spaces. There have been issues reported in the past where invisible roads caused game crashes or corrupt savegames. Make sure to enable autosave and save your game often.
+
+## Acknowledgment
 Many people helped me in the creation of this mod. Especially I would like to thank
 * **CityRat** for various custom icons.
 * **Tigon ologdrin** for the icons of all spawner types.
@@ -29,5 +32,5 @@ Many people helped me in the creation of this mod. Especially I would like to th
 * **89-pleasure** for helping me with the very first steps of modding.
 * **Yenyang** for the help and modding templates.
 
-# Community
+## Community
 Looking to discuss Cities: Skylines 2 Unofficial modding together with other modders? You're welcome to join [Cities 2 Modding Discord](https://discord.gg/vd7HXnpPJf) or the [Cities: Skylines Modding Discord](https://discord.gg/27CVdGFA47).
