@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using Extra.Lib.Helper;
+﻿using System.Collections.Generic;
 using Extra.Lib;
+using Extra.Lib.Helper;
+using Game.Net;
 using Game.Prefabs;
 using Unity.Collections;
 using Unity.Entities;
-using Colossal.Entities;
-using Game.Net;
-using Game.Objects;
-using UnityEngine;
 
-namespace ExtraNetworksAndAreas
+namespace ExtraNetworksAndAreas.Mod
 {
 	internal static class EditEntities
 	{

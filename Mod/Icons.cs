@@ -1,7 +1,7 @@
-﻿using Game.Prefabs;
-using System.IO;
+﻿using System.IO;
+using Game.Prefabs;
 
-namespace ExtraNetworksAndAreas
+namespace ExtraNetworksAndAreas.Mod
 {
     internal class Icons
     {

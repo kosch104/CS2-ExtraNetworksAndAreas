@@ -6,6 +6,7 @@ using Game.SceneFlow;
 using HarmonyLib;
 using System.IO;
 using System.Linq;
+using ExtraNetworksAndAreas.Mod;
 
 namespace ExtraNetworksAndAreas
 {
