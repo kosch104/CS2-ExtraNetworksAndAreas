@@ -21,8 +21,8 @@ This game has invisible animal spawners that can be used to periodically spawn a
 - Outside Connections
 - Feel free to suggest more features!
 
-## Warning
-Please be careful using invisible roads and spaces. There have been issues reported in the past where invisible roads caused game crashes or corrupt savegames. Make sure to enable autosave and save your game often.
+> [!WARNING]
+> Please be careful using invisible roads and spaces. There have been issues reported in the past where invisible roads caused game crashes or corrupt savegames. Make sure to enable autosave and save your game often.
 
 ## Acknowledgment
 Many people helped me in the creation of this mod. Especially I would like to thank

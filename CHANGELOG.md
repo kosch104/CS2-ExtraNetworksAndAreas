@@ -1,4 +1,4 @@
-# Verison 1.0.1
+# Version 1.0.1
 Added translations for:
 - German (by **Korto**)
 - Simplified Chinese (by **Nullpinter**)
