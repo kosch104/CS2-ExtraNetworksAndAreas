@@ -10,6 +10,9 @@ This Mod adds integrated stations to the Transportation tab. These stations are 
 ### Invisible Roads and Custom Parking Lots
 This mod adds all available invisible paths and roads to the User Interface. This includes the possibility to create custom parking lots without having to use developer tools.
 
+> [!WARNING]
+> Please be careful using invisible roads and spaces. There have been issues reported in the past where invisible roads caused game crashes or corrupt savegames. Make sure to enable autosave and save your game often.
+
 ### Spaces and Areas
 Spaces and Areas are used by your Cims to determine where they can walk, spend their freetime in a park, or hang out. This previously needed access to developer tools, but now you can create them directly from the Terraforming Tab.
 
@@ -20,9 +23,6 @@ This game has invisible animal spawners that can be used to periodically spawn a
 - Translations
 - Outside Connections
 - Feel free to suggest more features!
-
-> [!WARNING]
-> Please be careful using invisible roads and spaces. There have been issues reported in the past where invisible roads caused game crashes or corrupt savegames. Make sure to enable autosave and save your game often.
 
 ## Acknowledgment
 Many people helped me in the creation of this mod. Especially I would like to thank
