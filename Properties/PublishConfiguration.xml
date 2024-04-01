@@ -53,7 +53,7 @@ Many people helped me in the creation of this mod. Especially I would like to th
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/extra-networks-and-areas.1654938/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.0.0" />
+	<ModVersion Value="1.0.1" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.1.*" />
 	<!--Dependency for the mod, can be set multiple times-->
@@ -63,9 +63,14 @@ Many people helped me in the creation of this mod. Especially I would like to th
 	<Dependency Id="74604" /> <!-- Anarchy -->
 
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
-	<ChangeLog Value="Update Mod Description" />
-	<!--ChangeLog>
-	</ChangeLog-->
+	<!--<ChangeLog Value="" />-->
+	<ChangeLog>
+Added translations for:
+- German (by **Korto**)
+- Simplified Chinese (by **Nullpinter**)
+- French (by **bricetango** and **Karg**)
+- Polish (by **karmel68**)
+	</ChangeLog>
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon-->
 	<ExternalLink Type="github" Url="https://github.com/kosch104/ExtraNetworksAndAreas" />
 	<ExternalLink Type="discord" Url="https://discord.gg/HTav7ARPs2" />
