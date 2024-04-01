@@ -41,9 +41,9 @@ Many people helped me in the creation of this mod. Especially I would like to th
 * **Yenyang** for the help and modding templates.
 	</LongDescription>
 	<!--Thumbnail-->
-	<Thumbnail Value="Properties/Thumbnail.png" />
+	<Thumbnail Value="Properties/Thumbnail500.png" />
 	<!--Screenshot, can be set multiple times-->
-	<Screenshot Value="Properties/Thumbnail.png" />
+	<Screenshot Value="Properties/Thumbnail500.png" />
 	<Screenshot Value="Properties/image1.png" />
 	<Screenshot Value="Properties/image2.png" />
 	<Screenshot Value="Properties/image3.png" />
