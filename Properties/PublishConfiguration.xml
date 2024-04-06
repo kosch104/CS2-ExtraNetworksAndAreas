@@ -41,6 +41,7 @@ This game has invisible animal spawners that can be used to periodically spawn a
 
 ## Acknowledgment
 Many people helped me in the creation of this mod. Especially I would like to thank
+* **Kasperekdk** for providing this stunning image of their custom train station.
 * **CityRat** for various custom icons.
 * **Tigon ologdrin** for the icons of all spawner types.
 * **Triton Supreme** for detailed support with the prefab system.
@@ -50,6 +51,7 @@ Many people helped me in the creation of this mod. Especially I would like to th
 	<!--Thumbnail-->
 	<Thumbnail Value="Properties/Thumbnail500.png" />
 	<!--Screenshot, can be set multiple times-->
+	<Screenshot Value="Properties/custom_station.png" />
 	<Screenshot Value="Properties/Thumbnail500.png" />
 	<Screenshot Value="Properties/image1.png" />
 	<Screenshot Value="Properties/image2.png" />
@@ -61,7 +63,7 @@ Many people helped me in the creation of this mod. Especially I would like to th
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/extra-networks-and-areas.1654938/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.0.2" />
+	<ModVersion Value="1.0.3" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.1.*" />
 	<!--Dependency for the mod, can be set multiple times-->
@@ -74,7 +76,13 @@ Many people helped me in the creation of this mod. Especially I would like to th
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
 	<!--<ChangeLog Value="" />-->
 	<ChangeLog>
-Fixed Translation for Chinese (Simplified)
+Added translations for:
+- Portuguese (by **Kv0the**)
+- Russian (by **Sivenesis**)
+
+Updated translations for:
+- German (by **Hendrix**)
+- French (by **Edou24**)
 	</ChangeLog>
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon-->
 	<ExternalLink Type="github" Url="https://github.com/kosch104/CS2-ExtraNetworksAndAreas" />

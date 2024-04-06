@@ -137,6 +137,8 @@ namespace ExtraNetworksAndAreas.Mod
 
 				ExtraLib.m_EntityManager.AddOrSetComponentData(entity, prefabUI.ToComponentData());
 			}
+
+			Log("Marker Object Entities Edited.");
 		}
 
 		private static void OnEditTrackEntities(NativeArray<Entity> entities)
@@ -167,6 +169,7 @@ namespace ExtraNetworksAndAreas.Mod
 					ExtraLib.m_EntityManager.AddOrSetComponentData(entity, prefabUI.ToComponentData());
 				}
 			}
+			Log("Track Entities Edited.");
 		}
 
 		private static void OnEditPathwayEntities(NativeArray<Entity> entities)
@@ -192,6 +195,7 @@ namespace ExtraNetworksAndAreas.Mod
 					ExtraLib.m_EntityManager.AddOrSetComponentData(entity, prefabUI.ToComponentData());
 				}
 			}
+			Log("Pathway Entities Edited.");
 		}
 
 		private static void OnEditSpacesEntities(NativeArray<Entity> entities)
@@ -217,6 +221,7 @@ namespace ExtraNetworksAndAreas.Mod
 					ExtraLib.m_EntityManager.AddOrSetComponentData(entity, prefabUI.ToComponentData());
 				}
 			}
+			Log("Space Entities Edited.");
 		}
 
 	}
