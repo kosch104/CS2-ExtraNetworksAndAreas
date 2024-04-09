@@ -189,7 +189,7 @@ namespace ExtraNetworksAndAreas.Mod
 
 					}
 					prefabUI.m_Group?.RemoveElement(entity);
-					prefabUI.m_Group = PrefabsHelper.GetOrCreateUIAssetCategoryPrefab("Landscaping", "Pathways", Icons.GetIcon);
+					prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("Pathways");
 					prefabUI.m_Group.AddElement(entity);
 
 					ExtraLib.m_EntityManager.AddOrSetComponentData(entity, prefabUI.ToComponentData());

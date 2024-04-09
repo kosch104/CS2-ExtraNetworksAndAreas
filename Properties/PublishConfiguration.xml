@@ -43,7 +43,8 @@ This game has invisible animal spawners that can be used to periodically spawn a
 Many people helped me in the creation of this mod. Especially I would like to thank
 * **Kasperekdk** for providing this stunning image of their custom train station.
 * **CityRat** for various custom icons.
-* **Tigon ologdrin** for the icons of all spawner types.
+* **Tigon ologdrin** for the original icons of all spawner types.
+* **Chamëleon TBN** for the new icons of all prefabs.
 * **Triton Supreme** for detailed support with the prefab system.
 * **89-pleasure** for helping me with the very first steps of modding.
 * **Yenyang** for the help and modding templates.
@@ -63,7 +64,7 @@ Many people helped me in the creation of this mod. Especially I would like to th
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/extra-networks-and-areas.1654938/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.0.3" />
+	<ModVersion Value="1.1.0" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.1.*" />
 	<!--Dependency for the mod, can be set multiple times-->
@@ -76,16 +77,11 @@ Many people helped me in the creation of this mod. Especially I would like to th
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
 	<!--<ChangeLog Value="" />-->
 	<ChangeLog>
-Added translations for:
-- Portuguese (by **Kv0the**)
-- Russian (by **Sivenesis**)
-
-Updated translations for:
-- German (by **Hendrix**)
-- French (by **Edou24**)
-- Chinese (by **Nullpinter**)
+- Updated Icons to fit UIL style (Thanks to **Chamëleon TBN**)
+- Fixed Bug with Extra Lib
 	</ChangeLog>
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon-->
 	<ExternalLink Type="github" Url="https://github.com/kosch104/CS2-ExtraNetworksAndAreas" />
 	<ExternalLink Type="discord" Url="https://discord.gg/vd7HXnpPJf" />
+	<ExternalLink Type="paypal" Url="https://www.paypal.com/paypalme/KonstantinSchwarze" />
 </Publish>

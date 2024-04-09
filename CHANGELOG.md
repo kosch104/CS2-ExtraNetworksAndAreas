@@ -1,3 +1,16 @@
+# Version 1.1.0
+- Updated Icons to fit UIL style (Thanks to **Chamëleon TBN**)
+- Fixed Bug with Extra Lib
+
+# Version 1.0.3
+Added translations for:
+
+- Portuguese (by **Kv0the**)
+- Russian (by **Sivenesis**)
+
+# Version 1.0.2
+- Fixed Translation for Chinese (Simplified)
+
 # Version 1.0.1
 Added translations for:
 - German (by **Korto**)
