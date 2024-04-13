@@ -122,7 +122,8 @@ namespace ExtraNetworksAndAreas.Mod
 				else if (prefab.name.Contains("Airplane"))
 					prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationAir");
 				// Ship stops don't work until the asset editor comes out, they need to be placed within a building prefab
-				else if (prefab.name.Contains("Ship")); // Empty statement to prevent the else from catching the ship stops
+				else if (prefab.name.Contains("Ship"))
+					continue;
 					//	prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationWater");
 				else
 				{
@@ -131,7 +132,7 @@ namespace ExtraNetworksAndAreas.Mod
 				}
 
 
-				prefabUI.m_Group?.AddElement(entity);
+				prefabUI.m_Group.AddElement(entity);
 
 				ExtraLib.m_EntityManager.AddOrSetComponentData(entity, prefabUI.ToComponentData());
 			}

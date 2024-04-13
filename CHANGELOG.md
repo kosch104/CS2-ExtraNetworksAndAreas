@@ -1,3 +1,6 @@
+# Version 1.1.3
+- Actually Fix Null Pointer Exception
+
 # Version 1.1.2
 - Fix Null Pointer Exception
 
