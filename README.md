@@ -7,14 +7,16 @@ This mod adds Invisible Roads, Custom Park Areas and Integrated Stops directly i
 ### Integrated Stations
 This Mod adds integrated stations to the Transportation tab. These stations are invisible markers that can be used to create your own custom Bus Terminals, Train Stations and much more.
 
+Please note that the ship stops are currently not working as they need to be placed within a building prefab.
+
 ### Invisible Roads and Custom Parking Lots
 This mod adds all available invisible paths and roads to the User Interface. This includes the possibility to create custom parking lots without having to use developer tools.
 
 > [!WARNING]
-> Please be careful using invisible roads and spaces. There have been issues reported in the past where invisible roads caused game crashes or corrupt savegames. Make sure to enable autosave and save your game often.
+> Please be careful using invisible roads and spaces. There have been issues reported in the past where invisible roads caused game crashes or corrupt save games. Make sure to enable autosave and save your game often.
 
 ### Spaces and Areas
-Spaces and Areas are used by your Cims to determine where they can walk, spend their freetime in a park, or hang out. This previously needed access to developer tools, but now you can create them directly from the Terraforming Tab.
+Spaces and Areas are used by your Cims to determine where they can walk, spend their free time in a park, or hang out. This previously needed access to developer tools, but now you can create them directly from the terraforming tab.
 
 ### Animal Spawners
 This game has invisible animal spawners that can be used to periodically spawn animals of various types. They are found in the terraforming tab. I have heard of a player using these spawners in combination with a Walking area to create a zoo, but I never tested it myself.
