@@ -15,8 +15,6 @@ This mod adds Invisible Roads, Custom Park Areas and Integrated Stops directly i
 ### Integrated Stations
 This Mod adds integrated stations to the Transportation tab. These stations are invisible markers that can be used to create your own custom Bus Terminals, Train Stations and much more.
 
-Please note that the ship stops are currently not working as they need to be placed within a building prefab.
-
 ### Invisible Roads and Custom Parking Lots
 This mod adds all available invisible paths and roads to the User Interface. This includes the possibility to create custom parking lots without having to use developer tools.
 
@@ -66,7 +64,7 @@ Many people helped me in the creation of this mod. Especially I would like to th
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/extra-networks-and-areas.1654938/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.1.0" />
+	<ModVersion Value="1.1.1" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.1.*" />
 	<!--Dependency for the mod, can be set multiple times-->
@@ -79,8 +77,8 @@ Many people helped me in the creation of this mod. Especially I would like to th
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
 	<!--<ChangeLog Value="" />-->
 	<ChangeLog>
-- Updated Icons to fit UIL style (Thanks to **Chamëleon TBN**)
-- Fixed Bug with Extra Lib
+- Removed ship stops from display as they need to be placed within a buildings prefab. This is not possible before the asset editor comes out
+- Added translation for Japanese (by **zakuro9715**)
 	</ChangeLog>
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon-->
 	<ExternalLink Type="github" Url="https://github.com/kosch104/CS2-ExtraNetworksAndAreas" />

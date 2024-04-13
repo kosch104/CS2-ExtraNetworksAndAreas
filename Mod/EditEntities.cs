@@ -103,16 +103,13 @@ namespace ExtraNetworksAndAreas.Mod
 				var prefabUI = prefab.GetComponent<UIObject>();
 				if (prefabUI == null)
 				{
-					//Log("UI Object not found");
 					prefabUI = prefab.AddComponent<UIObject>();
 					prefabUI.active = true;
 					prefabUI.m_IsDebugObject = false;
-					//prefabUI.m_Icon = GetIcon(prefab);
 					prefabUI.m_Priority = 1;
 				}
 
 				prefabUI.m_Group?.RemoveElement(entity);
-				//Log("Prefab Name: " + prefab.name);
 
 				if (prefab.name.Contains("Bus") || prefab.name.Contains("Taxi"))
 					prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationRoad");
@@ -124,8 +121,9 @@ namespace ExtraNetworksAndAreas.Mod
 					prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationTram");
 				else if (prefab.name.Contains("Airplane"))
 					prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationAir");
-				else if (prefab.name.Contains("Ship"))
-					prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationWater");
+				// Ship stops don't work until the asset editor comes out, they need to be placed within a building prefab
+				else if (prefab.name.Contains("Ship")); // Empty statement to prevent the else from catching the ship stops
+					//	prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationWater");
 				else
 				{
 					prefabUI.m_Group = PrefabsHelper.GetOrCreateUIAssetCategoryPrefab("Landscaping", "Marker Object Prefabs", Icons.GetIcon, "Spaces");

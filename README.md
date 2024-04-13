@@ -7,8 +7,6 @@ This mod adds Invisible Roads, Custom Park Areas and Integrated Stops directly i
 ### Integrated Stations
 This Mod adds integrated stations to the Transportation tab. These stations are invisible markers that can be used to create your own custom Bus Terminals, Train Stations and much more.
 
-Please note that the ship stops are currently not working as they need to be placed within a building prefab.
-
 ### Invisible Roads and Custom Parking Lots
 This mod adds all available invisible paths and roads to the User Interface. This includes the possibility to create custom parking lots without having to use developer tools.
 
