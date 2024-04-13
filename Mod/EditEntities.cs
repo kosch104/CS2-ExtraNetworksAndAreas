@@ -131,7 +131,7 @@ namespace ExtraNetworksAndAreas.Mod
 				}
 
 
-				prefabUI.m_Group.AddElement(entity);
+				prefabUI.m_Group?.AddElement(entity);
 
 				ExtraLib.m_EntityManager.AddOrSetComponentData(entity, prefabUI.ToComponentData());
 			}

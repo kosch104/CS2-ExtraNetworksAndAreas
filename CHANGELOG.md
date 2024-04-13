@@ -1,3 +1,10 @@
+# Version 1.1.2
+- Fix Null Pointer Exception
+
+# Version 1.1.1
+- Removed ship stops from display as they need to be placed within a buildings prefab. This is not possible before the asset editor comes out
+- Added translation for Japanese (by **zakuro9715**)
+
 # Version 1.1.0
 - Updated Icons to fit UIL style (Thanks to **Chamëleon TBN**)
 - Fixed Bug with Extra Lib
