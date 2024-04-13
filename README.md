@@ -33,6 +33,6 @@ Many people helped me in the creation of this mod. Especially I would like to th
 * **Yenyang** for the help and modding templates.
 
 ## Community
-Please check out [this](https://crowdin.com/project/csl2-mod-extra-networks-and-ar) link if you want to help contribute to the translations!
+Please check out this link if you want to help contribute to the translations: https://crowdin.com/project/csl2-mod-extra-networks-and-ar 
 
 Looking to discuss Cities: Skylines 2 Unofficial modding together with other modders? You're welcome to join [Cities 2 Modding Discord](https://discord.gg/vd7HXnpPJf) or the [Cities: Skylines Modding Discord](https://discord.gg/27CVdGFA47).
