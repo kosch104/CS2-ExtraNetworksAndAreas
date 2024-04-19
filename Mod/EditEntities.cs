@@ -77,9 +77,7 @@ namespace ExtraNetworksAndAreas.Mod
 		{
 			Dictionary<string, string> overrideIcons = new()
 			{
-				{ "Double Train Track - Twoway", "Media/Game/Icons/DoubleTrainTrack.svg" },
 				{ "Oneway Tram Track - Inside", "Media/Game/Icons/OnewayTramTrack.svg" },
-				{ "Double Subway Track - Twoway", "Media/Game/Icons/DoubleTrainTrack.svg" },
 				{ "Twoway Subway Track", "Media/Game/Icons/TwoWayTrainTrack.svg" },
 			};
 			if (overrideIcons.TryGetValue(prefab.name, out string icon))
@@ -106,8 +104,11 @@ namespace ExtraNetworksAndAreas.Mod
 					prefabUI = prefab.AddComponent<UIObject>();
 					prefabUI.active = true;
 					prefabUI.m_IsDebugObject = false;
-					prefabUI.m_Priority = 1;
+					prefabUI.m_Priority = 100;
 				}
+
+				if (prefab.name.Contains("Integrated"))
+					prefabUI.m_Priority = 110;
 
 				prefabUI.m_Group?.RemoveElement(entity);
 
@@ -153,7 +154,13 @@ namespace ExtraNetworksAndAreas.Mod
 						prefabUI.active = true;
 						prefabUI.m_IsDebugObject = false;
 						prefabUI.m_Icon = GetIcon(prefab);
-						prefabUI.m_Priority = 1;
+						prefabUI.m_Priority = 100;
+					}
+					else
+					{
+						var i = GetIcon(prefab);
+						if (!i.Contains("placeholder"))
+							prefabUI.m_Icon = i;
 					}
 
 					prefabUI.m_Group?.RemoveElement(entity);

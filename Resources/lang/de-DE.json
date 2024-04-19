@@ -2,7 +2,7 @@
   "Assets.NAME[Double Train Track - Twoway]": "Zweigleisige Zugstrecke (Station)",
   "Assets.DESCRIPTION[Double Train Track - Twoway]": "Zweigleisige Strecke, welche es Zügen erlaubt, in beide Richtungen zu fahren.",
   "Assets.NAME[Oneway Tram Track - Inside]": "Eingleisige Straßenbahnstrecke (Ohne Stromleitungen)",
-  "Assets.DESCRIPTION[Oneway Tram Track - Inside]": "Eingleisige Strecke, die es erlaubt, dass Straßenbahnen in eine Richtung fahren. Kann mit dem **Ersetzen** Werkzeugmodus zu bestehenden Straßen hinzugefügt werden.",
+  "Assets.DESCRIPTION[Oneway Tram Track - Inside]": "Eingleisige Strecke, die es erlaubt, dass Straßenbahnen in eine Richtung fahren.",
   "Assets.NAME[Double Subway Track - Twoway]": "Zweigleisige U-Bahnstrecke (Station)",
   "Assets.DESCRIPTION[Double Subway Track - Twoway]": "Zweigleisige Strecke welches es U-Bahnen erlaubt in beide Richtungen zu fahren.",
   "Assets.DESCRIPTION[Twoway Subway Track]": "Eingleisige Strecke, die es erlaubt, das U-Bahnen in beide Richtungen fahren, aber nicht gleichzeitig.",

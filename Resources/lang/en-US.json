@@ -2,7 +2,7 @@
   "Assets.NAME[Double Train Track - Twoway]": "Double Train Track (Station)",
   "Assets.DESCRIPTION[Double Train Track - Twoway]": "Double track that allows trains to run in both directions simultaneously.",
   "Assets.NAME[Oneway Tram Track - Inside]": "One-Way Tram Track (Without power lines)",
-  "Assets.DESCRIPTION[Oneway Tram Track - Inside]": "Single track that allows tram traffic to run in one direction at a time. Can be added to existing roads with the **Replace** Tool Mode.",
+  "Assets.DESCRIPTION[Oneway Tram Track - Inside]": "Single track that allows tram traffic to run in one direction at a time.",
   "Assets.NAME[Double Subway Track - Twoway]": "Double Subway Track (Station)",
   "Assets.DESCRIPTION[Double Subway Track - Twoway]": "Double track that allows subway trains to run in both directions simultaneously.",
   "Assets.DESCRIPTION[Twoway Subway Track]": "Single track that allows subway trains to run in both directions, but not at the same time.",

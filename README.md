@@ -20,8 +20,6 @@ Spaces and Areas are used by your Cims to determine where they can walk, spend t
 This game has invisible animal spawners that can be used to periodically spawn animals of various types. They are found in the terraforming tab. I have heard of a player using these spawners in combination with a Walking area to create a zoo, but I never tested it myself.
 
 ## Feature roadmap
-- Translations
-- Outside Connections
 - Feel free to suggest more features!
 
 ## Acknowledgment
