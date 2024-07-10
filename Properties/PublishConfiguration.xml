@@ -50,35 +50,30 @@ Many people helped me in the creation of this mod. Especially I would like to th
 	<!--Thumbnail-->
 	<Thumbnail Value="Properties/Thumbnail500.png" />
 	<!--Screenshot, can be set multiple times-->
-	<Screenshot Value="Properties/custom_station.png" />
-	<Screenshot Value="Properties/Thumbnail500.png" />
-	<Screenshot Value="Properties/image1.png" />
-	<Screenshot Value="Properties/image2.png" />
-	<Screenshot Value="Properties/image3.png" />
-	<Screenshot Value="Properties/image4.png" />
-	<Screenshot Value="Properties/image5.png" />
+	<Screenshot Value="Properties/custom_station.jpg" />
+	<Screenshot Value="Properties/wallpaper.png" />
+	<Screenshot Value="Properties/image1.jpg" />
+	<Screenshot Value="Properties/image2.jpg" />
+	<Screenshot Value="Properties/image3.jpg" />
+	<Screenshot Value="Properties/image4.jpg" />
+	<Screenshot Value="Properties/image5.jpg" />
 	<!--Tag, can be set multiple times-->
 	<Tag Value="Code Mod" />
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/extra-networks-and-areas.1654938/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.2.0" />
+	<ModVersion Value="1.2.1" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.1.*" />
 	<!--Dependency for the mod, can be set multiple times-->
 	<Dependency Id="75724" /> <!-- Extra Lib -->
 	<Dependency Id="75426" /> <!-- l18n Everywhere -->
-	<!-- <Dependency Id="74417" /> Unified Icon Library -->
-	<!-- <Dependency Id="75250" /> Better Bulldozer -->
-	<!-- <Dependency Id="74604" /> Anarchy -->
 
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
 	<!--<ChangeLog Value="" />-->
 	<ChangeLog>
-Quality of Life Changes:
-- Special rails are now at the end of the category
-- Added custom icons for special rails
-- Integrated Stops are now at the end of the category
+- Water Stops are now displayed in the water transportation tab
+- Fixed Seagull Spawner localization
 	</ChangeLog>
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon-->
 	<ExternalLink Type="github" Url="https://github.com/kosch104/CS2-ExtraNetworksAndAreas" />

@@ -122,10 +122,8 @@ namespace ExtraNetworksAndAreas.Mod
 					prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationTram");
 				else if (prefab.name.Contains("Airplane"))
 					prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationAir");
-				// Ship stops don't work until the asset editor comes out, they need to be placed within a building prefab
 				else if (prefab.name.Contains("Ship"))
-					continue;
-					//	prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationWater");
+						prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationWater");
 				else
 				{
 					prefabUI.m_Group = PrefabsHelper.GetOrCreateUIAssetCategoryPrefab("Landscaping", "Marker Object Prefabs", Icons.GetIcon, "Spaces");

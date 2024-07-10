@@ -57,5 +57,6 @@
   "Assets.DESCRIPTION[Moose Spawner]": "Periodically spawns moose.",
   "Assets.DESCRIPTION[Deer Spawner]": "Periodically spawns deer.",
   "Assets.DESCRIPTION[Sheep Spawner]": "Periodically spawns sheep.",
-  "Assets.DESCRIPTION[Goose Spawner]": "Periodically spawns geese."
+  "Assets.DESCRIPTION[Goose Spawner]": "Periodically spawns geese.",
+  "Assets.DESCRIPTION[Seagull Spawner]": "Periodically spawns seagulls."
 }
