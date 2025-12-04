@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Colossal.Localization;
 using ExtraLib.ClassExtension;
 using ExtraLib.Helpers;
 using Game.Net;
@@ -55,10 +56,10 @@ namespace ExtraNetworksAndAreas.Mod
 
 			EntityQueryDesc markerObjectsEntityQueryDesc = new EntityQueryDesc
 			{
-				All =
+				/*All =
 				new [] {
 					ComponentType.ReadOnly<UIObjectData>()
-				},
+				},*/
 				Any =
 				new [] {
 					ComponentType.ReadOnly<TrafficSpawnerData>(),
@@ -134,7 +135,7 @@ namespace ExtraNetworksAndAreas.Mod
 				else if (prefab.name.Contains("Airplane"))
 					prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationAir");
 				else if (prefab.name.Contains("Ship"))
-						prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationWater");
+						prefabUI.m_Group = PrefabsHelper.GetUIAssetCategoryPrefab("TransportationShip");
 				else
 				{
 					prefabUI.m_Group = PrefabsHelper.GetOrCreateUIAssetCategoryPrefab("Landscaping", "Marker Object Prefabs", Icons.GetIcon, "Spaces");
@@ -145,6 +146,12 @@ namespace ExtraNetworksAndAreas.Mod
 				prefabUI.m_Group.AddElement(entity);
 
 				ExtraLib.EL.m_EntityManager.AddOrSetComponentData(entity, prefabUI.ToComponentData());
+				var localizedName = ENA.LocalizationManager.GetLocalizedName(prefab.name);
+				if (string.IsNullOrEmpty(localizedName.Trim()))
+					Log($"[EMPTY] Edited Marker Entity: {prefab.name} with UI name: {localizedName}");
+				else
+					Log($"Edited Marker Entity: {prefab.name} with UI name: {localizedName}");
+				
 			}
 
 			Log("Marker Object Entities Edited.");
@@ -187,6 +194,11 @@ namespace ExtraNetworksAndAreas.Mod
 					prefabUI.m_Group.AddElement(entity);
 
 					ExtraLib.EL.m_EntityManager.AddOrSetComponentData(entity, prefabUI.ToComponentData());
+					var localizedName = ENA.LocalizationManager.GetLocalizedName(prefab.name);
+					if (string.IsNullOrEmpty(localizedName.Trim()))
+						Log($"[EMPTY] Edited Track Entity: {prefab.name} with UI name: {localizedName}");
+					else
+						Log($"Edited Track Entity: {prefab.name} with UI name: {localizedName}");
 				}
 			}
 			Log("Track Entities Edited.");
@@ -258,8 +270,14 @@ namespace ExtraNetworksAndAreas.Mod
 					prefabUI.m_Group.AddElement(entity);
 
 					ExtraLib.EL.m_EntityManager.AddOrSetComponentData(entity, prefabUI.ToComponentData());
+					var localizedName = ENA.LocalizationManager.GetLocalizedName(prefab.name);
+					if (string.IsNullOrEmpty(localizedName.Trim()))
+						Log($"[EMPTY] Edited Pathway Entity: {prefab.name} with UI name: {localizedName}");
+					else
+						Log($"Edited Pathway Entity: {prefab.name} with UI name: {localizedName}");
 				}
 			}
+			
 			Log("Pathway Entities Edited.");
 		}
 

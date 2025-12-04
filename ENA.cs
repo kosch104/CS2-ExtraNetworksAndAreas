@@ -5,6 +5,7 @@ using Game.SceneFlow;
 using HarmonyLib;
 using System.IO;
 using System.Linq;
+using Colossal.Localization;
 using ExtraLib.Debugger;
 using ExtraNetworksAndAreas.Mod;
 
@@ -16,6 +17,7 @@ namespace ExtraNetworksAndAreas
 		internal static Logger Logger { get; private set; } = new(log, false);
 
 		internal static string ResourcesIcons { get; private set; }
+		public static LocalizationManager LocalizationManager { get; private set; }
 
 		private Harmony harmony;
 
@@ -30,6 +32,7 @@ namespace ExtraNetworksAndAreas
 			FileInfo fileInfo = new(asset.path);
 
 			ResourcesIcons = Path.Combine(fileInfo.DirectoryName, "Icons");
+			LocalizationManager = GameManager.instance.localizationManager;
 
 			EditEntities.SetupEditEntities();
 			Icons.LoadIcons(fileInfo.DirectoryName);
@@ -42,7 +45,6 @@ namespace ExtraNetworksAndAreas
 			{
 				Logger.Info($"Patched method: {patchedMethod.Module.Name}:{patchedMethod.Name}");
 			}
-
 		}
 
 		public void OnDispose()
